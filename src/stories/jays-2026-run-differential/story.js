@@ -349,6 +349,8 @@ export default {
           .map((c) => `<li><span class="kicker ${c.season === "2026" ? "is-accent" : ""}">${c.season}</span> <a href="${c.url}" target="_blank" rel="noopener">${c.caption}</a></li>`)
           .join("");
         root.appendChild(prose);
+        // Elements inserted after load do not always honour autoplay; nudge them.
+        prose.querySelectorAll("video[autoplay]").forEach((v) => v.play().catch(() => {}));
       })
       .catch((err) => {
         scrollyRoot.innerHTML = `<p class="prose">Could not load the data (${err.message}).</p>`;
