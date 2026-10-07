@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 import { mountScrolly } from "../../lib/scrolly.js";
-import { dataUrl } from "../../lib/media.js";
+import { dataUrl, mediaUrl, videoFigure } from "../../lib/media.js";
 
 /**
  * Week 1: the 2026 Blue Jays season wrap. Run differential frames the season,
@@ -322,7 +322,9 @@ export default {
       <p>Guerrero's problem is not plate discipline, or at least not mostly. Half of the chase-rate jump everyone cites is a change in how the zone is measured. The rest of the story lives inside the zone, on the pitches he used to hit out of the park, where the same bat speed is now producing hard ground balls. That points at timing and intent, which is coachable, rather than at bat speed or age, which is not.</p>
       <p>The lesson travels. When a number jumps between two periods, the first question is whether the ruler changed. The second is which specific input moved, because an outcome like home runs or revenue rarely falls everywhere at once. It falls in one place, and finding that place is the whole job.</p>
       <h2>Watch the evidence</h2>
-      <p>Every pitch in the charts has an MLB video clip. These are the ones behind the upper-half finding: the same height, the same bat speed, and a different angle off the bat.</p>
+      <p>Every pitch in the charts has an MLB video clip. The loop below pairs two 2025 home runs with two 2026 ground outs on pitches at the same height, synced at the moment of contact.</p>
+      ${videoFigure({ src: "vlad-same-pitch.mp4", poster: "vlad-same-pitch.jpg", alt: "Side by side clips of Guerrero hitting home runs in 2025 and ground outs in 2026 on pitches at the same height", caption: `Left: 2025. Right: 2026. Footage from MLB via Baseball Savant. <a href="${mediaUrl("vlad-same-pitch.gif")}">GIF version</a> for sharing.` })}
+      <p>The eight clips behind the upper-half finding, each linked to MLB's video:</p>
       <ul id="clip-list" class="clip-list"></ul>
       <aside class="method">
         <h2>Method</h2>
