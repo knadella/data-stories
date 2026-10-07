@@ -1,0 +1,1 @@
+One folder per story. Each holds the script that fetched or processed the data the story reads from `public/data/`, so the method note can link to it. Raw pulls go in `scripts/output/`, which is ignored by git.

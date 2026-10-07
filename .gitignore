@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+.env
+.env.*
+# Raw data pulls live in scripts/ outputs; commit only what the site reads from public/data
+scripts/output/
