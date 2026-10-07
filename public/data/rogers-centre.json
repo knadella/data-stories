@@ -1,0 +1,29 @@
+[
+ {
+  "season": 2024,
+  "homeRuns": 180,
+  "flyBallDistance": 313.3,
+  "hardHitPct": 38.7,
+  "wellHitFlies": 165,
+  "wellHitDistance": 381.3,
+  "wellHitHrPct": 44.2
+ },
+ {
+  "season": 2025,
+  "homeRuns": 223,
+  "flyBallDistance": 319.0,
+  "hardHitPct": 41.8,
+  "wellHitFlies": 192,
+  "wellHitDistance": 382.2,
+  "wellHitHrPct": 43.8
+ },
+ {
+  "season": 2026,
+  "homeRuns": 163,
+  "flyBallDistance": 308.7,
+  "hardHitPct": 35.5,
+  "wellHitFlies": 138,
+  "wellHitDistance": 384.5,
+  "wellHitHrPct": 52.2
+ }
+]

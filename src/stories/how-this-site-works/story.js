@@ -105,7 +105,7 @@ export default {
   dek: "A demo of the scrollytelling pattern: the chart moves as you read, the colour marks the one thing that matters, and the ending is a decision.",
   date: "2026-10-06",
   readingTime: 3,
-  draft: false,
+  draft: true,
 
   mount(root) {
     const scrollyRoot = document.createElement("div");

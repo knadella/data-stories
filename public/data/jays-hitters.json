@@ -1,0 +1,142 @@
+{
+ "2025": [
+  {
+   "name": "George Springer",
+   "pa": 586,
+   "hr": 32,
+   "ops": 0.959,
+   "obp": 0.399,
+   "slg": 0.56
+  },
+  {
+   "name": "Vladimir Guerrero Jr.",
+   "pa": 680,
+   "hr": 23,
+   "ops": 0.848,
+   "obp": 0.381,
+   "slg": 0.467
+  },
+  {
+   "name": "Bo Bichette",
+   "pa": 628,
+   "hr": 18,
+   "ops": 0.84,
+   "obp": 0.357,
+   "slg": 0.483
+  },
+  {
+   "name": "Alejandro Kirk",
+   "pa": 506,
+   "hr": 15,
+   "ops": 0.769,
+   "obp": 0.348,
+   "slg": 0.421
+  },
+  {
+   "name": "Addison Barger",
+   "pa": 502,
+   "hr": 21,
+   "ops": 0.755,
+   "obp": 0.301,
+   "slg": 0.454
+  },
+  {
+   "name": "Nathan Lukes",
+   "pa": 438,
+   "hr": 12,
+   "ops": 0.73,
+   "obp": 0.323,
+   "slg": 0.407
+  },
+  {
+   "name": "Ernie Clement",
+   "pa": 588,
+   "hr": 9,
+   "ops": 0.711,
+   "obp": 0.313,
+   "slg": 0.398
+  },
+  {
+   "name": "Andr\u00e9s Gim\u00e9nez",
+   "pa": 369,
+   "hr": 7,
+   "ops": 0.598,
+   "obp": 0.285,
+   "slg": 0.313
+  }
+ ],
+ "2026": [
+  {
+   "name": "Alejandro Kirk",
+   "pa": 313,
+   "hr": 10,
+   "ops": 0.766,
+   "obp": 0.351,
+   "slg": 0.415
+  },
+  {
+   "name": "Kazuma Okamoto",
+   "pa": 636,
+   "hr": 33,
+   "ops": 0.762,
+   "obp": 0.31,
+   "slg": 0.452
+  },
+  {
+   "name": "George Springer",
+   "pa": 517,
+   "hr": 15,
+   "ops": 0.726,
+   "obp": 0.321,
+   "slg": 0.405
+  },
+  {
+   "name": "Nathan Lukes",
+   "pa": 450,
+   "hr": 10,
+   "ops": 0.714,
+   "obp": 0.327,
+   "slg": 0.387
+  },
+  {
+   "name": "Vladimir Guerrero Jr.",
+   "pa": 609,
+   "hr": 9,
+   "ops": 0.688,
+   "obp": 0.332,
+   "slg": 0.356
+  },
+  {
+   "name": "Daulton Varsho",
+   "pa": 365,
+   "hr": 7,
+   "ops": 0.682,
+   "obp": 0.307,
+   "slg": 0.375
+  },
+  {
+   "name": "Andr\u00e9s Gim\u00e9nez",
+   "pa": 508,
+   "hr": 9,
+   "ops": 0.65,
+   "obp": 0.291,
+   "slg": 0.359
+  },
+  {
+   "name": "Ernie Clement",
+   "pa": 621,
+   "hr": 9,
+   "ops": 0.649,
+   "obp": 0.285,
+   "slg": 0.364
+  },
+  {
+   "name": "Myles Straw",
+   "pa": 330,
+   "hr": 3,
+   "ops": 0.646,
+   "obp": 0.304,
+   "slg": 0.342
+  }
+ ]
+}

@@ -66,6 +66,10 @@ p { margin: 0 0 1.1em; }
 .prose .media, .scrolly .media { width: 100%; height: auto; display: block; border-radius: 6px; border: 1px solid var(--rule); background: #fff; }
 .method { background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 1.25rem 1.5rem; margin: 2.5rem 0; font-size: 0.9375rem; }
 .method h2 { margin-top: 0; font-size: 1.125rem; }
+.clip-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.clip-list li { padding: 0.6rem 0; border-top: 1px solid var(--rule); font-size: 0.9375rem; }
+.clip-list .kicker { display: inline-block; min-width: 3rem; font-size: 0.75rem; letter-spacing: 0.08em; color: var(--ink-3); }
+.clip-list .kicker.is-accent { color: var(--accent); }
 .method code { font-family: var(--mono); font-size: 0.875em; background: var(--paper); padding: 0.1em 0.35em; border-radius: 4px; }
 
 /* Scrollytelling: sticky graphic, steps scroll past */
@@ -109,6 +113,7 @@ p { margin: 0 0 1.1em; }
 @media (max-width: 48rem) {
   .scrolly { grid-template-columns: 1fr; gap: 0; }
   .scrolly .graphic { grid-column: 1; grid-row: 1; top: 0; height: 52vh; background: var(--paper); z-index: 1; padding-top: 0.5rem; }
+  .scrolly .graphic svg { width: auto; max-width: 100%; max-height: calc(52vh - 5.5rem); margin: 0 auto; }
   .scrolly .steps { grid-column: 1; grid-row: 2; }
   .step { min-height: 60vh; align-items: flex-end; padding-bottom: 20vh; }
 }
