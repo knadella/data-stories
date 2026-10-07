@@ -15,7 +15,7 @@ export function dataUrl(file) {
 export function videoFigure({ src, poster, caption, alt = "" }) {
   const posterAttr = poster ? ` poster="${mediaUrl(poster)}"` : "";
   return `<figure>
-    <video class="media" src="${mediaUrl(src)}"${posterAttr} autoplay muted loop playsinline preload="metadata" aria-label="${alt}"></video>
+    <video class="media" src="${mediaUrl(src)}"${posterAttr} autoplay muted loop playsinline preload="metadata" aria-label="${alt}" oncanplay="this.play().catch(function () {})"></video>
     ${caption ? `<figcaption>${caption}</figcaption>` : ""}
   </figure>`;
 }
