@@ -1,0 +1,7958 @@
+{
+ "seasons": [
+  {
+   "season": 2019,
+   "pa": 514,
+   "bip": 375,
+   "homeRuns": 15,
+   "exitVelo": 89.4,
+   "maxExitVelo": 118.9,
+   "hardHitPct": 38.7,
+   "barrelPct": 7.7,
+   "hrPerFlyBall": 18.7,
+   "flyBallDistance": 329.0,
+   "launchAngle": 6.7,
+   "hardHitLaunchAngle": 5.5,
+   "hardHitInWindow": 37.2,
+   "hardHitPulled": 42.8,
+   "hardHitOnGround": 56.6,
+   "qualityAirPct": 14.4,
+   "flyBallExitVelo": 92.1,
+   "groundBallPct": 50.4,
+   "popupPct": 6.9,
+   "xwoba": 0.333,
+   "chaseOldBox": 29.2,
+   "zoneSwingOldBox": 70.6,
+   "firstPitchSwingPct": 35.8,
+   "batSpeed": null,
+   "upperHalf": {
+    "bip": 133,
+    "barrels": 5,
+    "homeRuns": 1,
+    "exitVelo": 89.3
+   },
+   "lowerHalf": {
+    "bip": 153,
+    "barrels": 20,
+    "homeRuns": 11,
+    "exitVelo": 93.7
+   }
+  },
+  {
+   "season": 2020,
+   "pa": 241,
+   "bip": 182,
+   "homeRuns": 9,
+   "exitVelo": 92.5,
+   "maxExitVelo": 116.1,
+   "hardHitPct": 51.1,
+   "barrelPct": 8.8,
+   "hrPerFlyBall": 17.9,
+   "flyBallDistance": 315.0,
+   "launchAngle": 4.6,
+   "hardHitLaunchAngle": 4.1,
+   "hardHitInWindow": 35.5,
+   "hardHitPulled": 51.6,
+   "hardHitOnGround": 58.1,
+   "qualityAirPct": 18.1,
+   "flyBallExitVelo": 91.5,
+   "groundBallPct": 54.9,
+   "popupPct": 3.8,
+   "xwoba": 0.338,
+   "chaseOldBox": 25.3,
+   "zoneSwingOldBox": 74.9,
+   "firstPitchSwingPct": 36.6,
+   "batSpeed": null,
+   "upperHalf": {
+    "bip": 65,
+    "barrels": 7,
+    "homeRuns": 2,
+    "exitVelo": 96.4
+   },
+   "lowerHalf": {
+    "bip": 80,
+    "barrels": 9,
+    "homeRuns": 7,
+    "exitVelo": 95.2
+   }
+  },
+  {
+   "season": 2021,
+   "pa": 688,
+   "bip": 493,
+   "homeRuns": 48,
+   "exitVelo": 95.1,
+   "maxExitVelo": 117.4,
+   "hardHitPct": 55.6,
+   "barrelPct": 15.2,
+   "hrPerFlyBall": 28.5,
+   "flyBallDistance": 330.0,
+   "launchAngle": 9.4,
+   "hardHitLaunchAngle": 9.7,
+   "hardHitInWindow": 44.9,
+   "hardHitPulled": 41.2,
+   "hardHitOnGround": 44.5,
+   "qualityAirPct": 24.9,
+   "flyBallExitVelo": 96.7,
+   "groundBallPct": 45.6,
+   "popupPct": 4.9,
+   "xwoba": 0.422,
+   "chaseOldBox": 26.2,
+   "zoneSwingOldBox": 73.8,
+   "firstPitchSwingPct": 43.0,
+   "batSpeed": null,
+   "upperHalf": {
+    "bip": 185,
+    "barrels": 44,
+    "homeRuns": 30,
+    "exitVelo": 97.5
+   },
+   "lowerHalf": {
+    "bip": 225,
+    "barrels": 24,
+    "homeRuns": 14,
+    "exitVelo": 96.6
+   }
+  },
+  {
+   "season": 2022,
+   "pa": 695,
+   "bip": 521,
+   "homeRuns": 32,
+   "exitVelo": 92.8,
+   "maxExitVelo": 118.4,
+   "hardHitPct": 50.9,
+   "barrelPct": 11.3,
+   "hrPerFlyBall": 22.2,
+   "flyBallDistance": 328.0,
+   "launchAngle": 4.3,
+   "hardHitLaunchAngle": 5.7,
+   "hardHitInWindow": 41.1,
+   "hardHitPulled": 43.0,
+   "hardHitOnGround": 50.9,
+   "qualityAirPct": 20.9,
+   "flyBallExitVelo": 95.0,
+   "groundBallPct": 51.8,
+   "popupPct": 6.1,
+   "xwoba": 0.354,
+   "chaseOldBox": 31.1,
+   "zoneSwingOldBox": 72.1,
+   "firstPitchSwingPct": 33.3,
+   "batSpeed": null,
+   "upperHalf": {
+    "bip": 204,
+    "barrels": 35,
+    "homeRuns": 17,
+    "exitVelo": 97.5
+   },
+   "lowerHalf": {
+    "bip": 184,
+    "barrels": 17,
+    "homeRuns": 11,
+    "exitVelo": 93.3
+   }
+  },
+  {
+   "season": 2023,
+   "pa": 676,
+   "bip": 506,
+   "homeRuns": 26,
+   "exitVelo": 92.1,
+   "maxExitVelo": 116.7,
+   "hardHitPct": 49.2,
+   "barrelPct": 11.1,
+   "hrPerFlyBall": 14.5,
+   "flyBallDistance": 315.0,
+   "launchAngle": 10.5,
+   "hardHitLaunchAngle": 6.8,
+   "hardHitInWindow": 40.2,
+   "hardHitPulled": 47.8,
+   "hardHitOnGround": 50.2,
+   "qualityAirPct": 19.8,
+   "flyBallExitVelo": 93.8,
+   "groundBallPct": 45.3,
+   "popupPct": 6.9,
+   "xwoba": 0.38,
+   "chaseOldBox": 29.8,
+   "zoneSwingOldBox": 75.5,
+   "firstPitchSwingPct": 41.2,
+   "batSpeed": 74.2,
+   "upperHalf": {
+    "bip": 202,
+    "barrels": 30,
+    "homeRuns": 12,
+    "exitVelo": 95.0
+   },
+   "lowerHalf": {
+    "bip": 191,
+    "barrels": 24,
+    "homeRuns": 12,
+    "exitVelo": 95.0
+   }
+  },
+  {
+   "season": 2024,
+   "pa": 682,
+   "bip": 522,
+   "homeRuns": 30,
+   "exitVelo": 93.8,
+   "maxExitVelo": 117.6,
+   "hardHitPct": 55.0,
+   "barrelPct": 13.8,
+   "hrPerFlyBall": 22.5,
+   "flyBallDistance": 329.0,
+   "launchAngle": 7.5,
+   "hardHitLaunchAngle": 6.8,
+   "hardHitInWindow": 44.6,
+   "hardHitPulled": 39.0,
+   "hardHitOnGround": 48.4,
+   "qualityAirPct": 24.5,
+   "flyBallExitVelo": 95.0,
+   "groundBallPct": 47.7,
+   "popupPct": 4.2,
+   "xwoba": 0.413,
+   "chaseOldBox": 27.6,
+   "zoneSwingOldBox": 69.8,
+   "firstPitchSwingPct": 27.1,
+   "batSpeed": 74.6,
+   "upperHalf": {
+    "bip": 176,
+    "barrels": 32,
+    "homeRuns": 13,
+    "exitVelo": 96.2
+   },
+   "lowerHalf": {
+    "bip": 220,
+    "barrels": 34,
+    "homeRuns": 12,
+    "exitVelo": 97.1
+   }
+  },
+  {
+   "season": 2025,
+   "pa": 669,
+   "bip": 496,
+   "homeRuns": 23,
+   "exitVelo": 92.0,
+   "maxExitVelo": 120.4,
+   "hardHitPct": 51.0,
+   "barrelPct": 12.3,
+   "hrPerFlyBall": 17.2,
+   "flyBallDistance": 320.0,
+   "launchAngle": 8.3,
+   "hardHitLaunchAngle": 7.5,
+   "hardHitInWindow": 44.3,
+   "hardHitPulled": 41.9,
+   "hardHitOnGround": 48.2,
+   "qualityAirPct": 22.6,
+   "flyBallExitVelo": 94.1,
+   "groundBallPct": 46.8,
+   "popupPct": 6.0,
+   "xwoba": 0.384,
+   "chaseOldBox": 22.8,
+   "zoneSwingOldBox": 63.0,
+   "firstPitchSwingPct": 24.1,
+   "batSpeed": 75.2,
+   "upperHalf": {
+    "bip": 184,
+    "barrels": 34,
+    "homeRuns": 14,
+    "exitVelo": 94.6
+   },
+   "lowerHalf": {
+    "bip": 213,
+    "barrels": 21,
+    "homeRuns": 8,
+    "exitVelo": 94.5
+   }
+  },
+  {
+   "season": 2026,
+   "pa": 605,
+   "bip": 467,
+   "homeRuns": 9,
+   "exitVelo": 90.3,
+   "maxExitVelo": 116.3,
+   "hardHitPct": 44.3,
+   "barrelPct": 6.9,
+   "hrPerFlyBall": 5.6,
+   "flyBallDistance": 295.0,
+   "launchAngle": 8.3,
+   "hardHitLaunchAngle": 4.7,
+   "hardHitInWindow": 33.8,
+   "hardHitPulled": 42.0,
+   "hardHitOnGround": 59.4,
+   "qualityAirPct": 15.0,
+   "flyBallExitVelo": 89.3,
+   "groundBallPct": 48.6,
+   "popupPct": 6.9,
+   "xwoba": 0.331,
+   "chaseOldBox": 28.0,
+   "zoneSwingOldBox": 68.2,
+   "firstPitchSwingPct": 31.6,
+   "batSpeed": 74.8,
+   "upperHalf": {
+    "bip": 168,
+    "barrels": 13,
+    "homeRuns": 0,
+    "exitVelo": 92.8
+   },
+   "lowerHalf": {
+    "bip": 185,
+    "barrels": 16,
+    "homeRuns": 6,
+    "exitVelo": 92.6
+   }
+  }
+ ],
+ "rolling": [
+  {
+   "date": "2019-04-26",
+   "season": 2019,
+   "game": 1,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-04-27",
+   "season": 2019,
+   "game": 2,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-04-28",
+   "season": 2019,
+   "game": 3,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-04-30",
+   "season": 2019,
+   "game": 4,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-01",
+   "season": 2019,
+   "game": 5,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-03",
+   "season": 2019,
+   "game": 6,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-04",
+   "season": 2019,
+   "game": 7,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-05",
+   "season": 2019,
+   "game": 8,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-06",
+   "season": 2019,
+   "game": 9,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-07",
+   "season": 2019,
+   "game": 10,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-10",
+   "season": 2019,
+   "game": 11,
+   "barrelPct": 0.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-11",
+   "season": 2019,
+   "game": 12,
+   "barrelPct": 3.1,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-12",
+   "season": 2019,
+   "game": 13,
+   "barrelPct": 2.9,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2019-05-14",
+   "season": 2019,
+   "game": 14,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.143
+  },
+  {
+   "date": "2019-05-15",
+   "season": 2019,
+   "game": 15,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2019-05-16",
+   "season": 2019,
+   "game": 16,
+   "barrelPct": 8.9,
+   "hrPerGame": 0.125
+  },
+  {
+   "date": "2019-05-17",
+   "season": 2019,
+   "game": 17,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.176
+  },
+  {
+   "date": "2019-05-18",
+   "season": 2019,
+   "game": 18,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-05-19",
+   "season": 2019,
+   "game": 19,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.211
+  },
+  {
+   "date": "2019-05-21",
+   "season": 2019,
+   "game": 20,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-05-22",
+   "season": 2019,
+   "game": 21,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.238
+  },
+  {
+   "date": "2019-05-23",
+   "season": 2019,
+   "game": 22,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.227
+  },
+  {
+   "date": "2019-05-24",
+   "season": 2019,
+   "game": 23,
+   "barrelPct": 11.4,
+   "hrPerGame": 0.217
+  },
+  {
+   "date": "2019-05-25",
+   "season": 2019,
+   "game": 24,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.208
+  },
+  {
+   "date": "2019-05-26",
+   "season": 2019,
+   "game": 25,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-05-27",
+   "season": 2019,
+   "game": 26,
+   "barrelPct": 10.1,
+   "hrPerGame": 0.192
+  },
+  {
+   "date": "2019-05-28",
+   "season": 2019,
+   "game": 27,
+   "barrelPct": 9.9,
+   "hrPerGame": 0.185
+  },
+  {
+   "date": "2019-05-29",
+   "season": 2019,
+   "game": 28,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.179
+  },
+  {
+   "date": "2019-05-31",
+   "season": 2019,
+   "game": 29,
+   "barrelPct": 11.6,
+   "hrPerGame": 0.207
+  },
+  {
+   "date": "2019-06-01",
+   "season": 2019,
+   "game": 30,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-06-02",
+   "season": 2019,
+   "game": 31,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-06-04",
+   "season": 2019,
+   "game": 32,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-06-05",
+   "season": 2019,
+   "game": 33,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-06",
+   "season": 2019,
+   "game": 34,
+   "barrelPct": 11.7,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-07",
+   "season": 2019,
+   "game": 35,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-08",
+   "season": 2019,
+   "game": 36,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-11",
+   "season": 2019,
+   "game": 37,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-12",
+   "season": 2019,
+   "game": 38,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-13",
+   "season": 2019,
+   "game": 39,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-16",
+   "season": 2019,
+   "game": 40,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-17",
+   "season": 2019,
+   "game": 41,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-18",
+   "season": 2019,
+   "game": 42,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-19",
+   "season": 2019,
+   "game": 43,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-06-20",
+   "season": 2019,
+   "game": 44,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-06-21",
+   "season": 2019,
+   "game": 45,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-06-22",
+   "season": 2019,
+   "game": 46,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-06-23",
+   "season": 2019,
+   "game": 47,
+   "barrelPct": 9.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2019-06-24",
+   "season": 2019,
+   "game": 48,
+   "barrelPct": 9.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2019-06-25",
+   "season": 2019,
+   "game": 49,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-06-26",
+   "season": 2019,
+   "game": 50,
+   "barrelPct": 8.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-06-28",
+   "season": 2019,
+   "game": 51,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-06-29",
+   "season": 2019,
+   "game": 52,
+   "barrelPct": 8.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-01",
+   "season": 2019,
+   "game": 53,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-02",
+   "season": 2019,
+   "game": 54,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-03",
+   "season": 2019,
+   "game": 55,
+   "barrelPct": 7.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-04",
+   "season": 2019,
+   "game": 56,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-05",
+   "season": 2019,
+   "game": 57,
+   "barrelPct": 7.6,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-06",
+   "season": 2019,
+   "game": 58,
+   "barrelPct": 6.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-07",
+   "season": 2019,
+   "game": 59,
+   "barrelPct": 5.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-12",
+   "season": 2019,
+   "game": 60,
+   "barrelPct": 5.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-13",
+   "season": 2019,
+   "game": 61,
+   "barrelPct": 5.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-14",
+   "season": 2019,
+   "game": 62,
+   "barrelPct": 5.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-16",
+   "season": 2019,
+   "game": 63,
+   "barrelPct": 4.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2019-07-17",
+   "season": 2019,
+   "game": 64,
+   "barrelPct": 4.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2019-07-18",
+   "season": 2019,
+   "game": 65,
+   "barrelPct": 3.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2019-07-19",
+   "season": 2019,
+   "game": 66,
+   "barrelPct": 4.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2019-07-20",
+   "season": 2019,
+   "game": 67,
+   "barrelPct": 5.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-21",
+   "season": 2019,
+   "game": 68,
+   "barrelPct": 5.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-22",
+   "season": 2019,
+   "game": 69,
+   "barrelPct": 5.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-23",
+   "season": 2019,
+   "game": 70,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-24",
+   "season": 2019,
+   "game": 71,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-26",
+   "season": 2019,
+   "game": 72,
+   "barrelPct": 6.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-07-27",
+   "season": 2019,
+   "game": 73,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-28",
+   "season": 2019,
+   "game": 74,
+   "barrelPct": 7.6,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-29",
+   "season": 2019,
+   "game": 75,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2019-07-30",
+   "season": 2019,
+   "game": 76,
+   "barrelPct": 7.6,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2019-08-01",
+   "season": 2019,
+   "game": 77,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-02",
+   "season": 2019,
+   "game": 78,
+   "barrelPct": 9.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-03",
+   "season": 2019,
+   "game": 79,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-04",
+   "season": 2019,
+   "game": 80,
+   "barrelPct": 9.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-05",
+   "season": 2019,
+   "game": 81,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-06",
+   "season": 2019,
+   "game": 82,
+   "barrelPct": 8.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-08-08",
+   "season": 2019,
+   "game": 83,
+   "barrelPct": 8.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-08-09",
+   "season": 2019,
+   "game": 84,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-08-10",
+   "season": 2019,
+   "game": 85,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-08-11",
+   "season": 2019,
+   "game": 86,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-08-12",
+   "season": 2019,
+   "game": 87,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-08-13",
+   "season": 2019,
+   "game": 88,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-08-14",
+   "season": 2019,
+   "game": 89,
+   "barrelPct": 10.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-08-16",
+   "season": 2019,
+   "game": 90,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-17",
+   "season": 2019,
+   "game": 91,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-20",
+   "season": 2019,
+   "game": 92,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-21",
+   "season": 2019,
+   "game": 93,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-22",
+   "season": 2019,
+   "game": 94,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-08-23",
+   "season": 2019,
+   "game": 95,
+   "barrelPct": 12.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-08-24",
+   "season": 2019,
+   "game": 96,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2019-08-25",
+   "season": 2019,
+   "game": 97,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-27",
+   "season": 2019,
+   "game": 98,
+   "barrelPct": 9.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-28",
+   "season": 2019,
+   "game": 99,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-30",
+   "season": 2019,
+   "game": 100,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-08-31",
+   "season": 2019,
+   "game": 101,
+   "barrelPct": 8.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-09-01",
+   "season": 2019,
+   "game": 102,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2019-09-03",
+   "season": 2019,
+   "game": 103,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-09-05",
+   "season": 2019,
+   "game": 104,
+   "barrelPct": 7.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-09-06",
+   "season": 2019,
+   "game": 105,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2019-09-07",
+   "season": 2019,
+   "game": 106,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2019-09-08",
+   "season": 2019,
+   "game": 107,
+   "barrelPct": 4.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-10",
+   "season": 2019,
+   "game": 108,
+   "barrelPct": 4.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-11",
+   "season": 2019,
+   "game": 109,
+   "barrelPct": 4.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-12",
+   "season": 2019,
+   "game": 110,
+   "barrelPct": 4.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-13",
+   "season": 2019,
+   "game": 111,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-14",
+   "season": 2019,
+   "game": 112,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-17",
+   "season": 2019,
+   "game": 113,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-18",
+   "season": 2019,
+   "game": 114,
+   "barrelPct": 4.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-19",
+   "season": 2019,
+   "game": 115,
+   "barrelPct": 4.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-20",
+   "season": 2019,
+   "game": 116,
+   "barrelPct": 4.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-21",
+   "season": 2019,
+   "game": 117,
+   "barrelPct": 4.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-23",
+   "season": 2019,
+   "game": 118,
+   "barrelPct": 4.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-24",
+   "season": 2019,
+   "game": 119,
+   "barrelPct": 4.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2019-09-25",
+   "season": 2019,
+   "game": 120,
+   "barrelPct": 3.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2019-09-27",
+   "season": 2019,
+   "game": 121,
+   "barrelPct": 3.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-07-24",
+   "season": 2020,
+   "game": 122,
+   "barrelPct": 3.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-07-25",
+   "season": 2020,
+   "game": 123,
+   "barrelPct": 3.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-07-26",
+   "season": 2020,
+   "game": 124,
+   "barrelPct": 2.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2020-07-27",
+   "season": 2020,
+   "game": 125,
+   "barrelPct": 2.0,
+   "hrPerGame": 0.0
+  },
+  {
+   "date": "2020-07-28",
+   "season": 2020,
+   "game": 126,
+   "barrelPct": 3.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-07-29",
+   "season": 2020,
+   "game": 127,
+   "barrelPct": 3.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-07-30",
+   "season": 2020,
+   "game": 128,
+   "barrelPct": 3.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-08-04",
+   "season": 2020,
+   "game": 129,
+   "barrelPct": 3.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-08-05",
+   "season": 2020,
+   "game": 130,
+   "barrelPct": 4.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-08-06",
+   "season": 2020,
+   "game": 131,
+   "barrelPct": 4.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-08-07",
+   "season": 2020,
+   "game": 132,
+   "barrelPct": 4.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-08-08",
+   "season": 2020,
+   "game": 133,
+   "barrelPct": 4.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-08-09",
+   "season": 2020,
+   "game": 134,
+   "barrelPct": 4.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-08-11",
+   "season": 2020,
+   "game": 135,
+   "barrelPct": 4.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2020-08-12",
+   "season": 2020,
+   "game": 136,
+   "barrelPct": 5.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2020-08-14",
+   "season": 2020,
+   "game": 137,
+   "barrelPct": 6.0,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2020-08-15",
+   "season": 2020,
+   "game": 138,
+   "barrelPct": 6.0,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2020-08-16",
+   "season": 2020,
+   "game": 139,
+   "barrelPct": 7.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2020-08-17",
+   "season": 2020,
+   "game": 140,
+   "barrelPct": 7.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2020-08-18",
+   "season": 2020,
+   "game": 141,
+   "barrelPct": 6.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2020-08-19",
+   "season": 2020,
+   "game": 142,
+   "barrelPct": 7.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2020-08-20",
+   "season": 2020,
+   "game": 143,
+   "barrelPct": 7.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2020-08-21",
+   "season": 2020,
+   "game": 144,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-08-22",
+   "season": 2020,
+   "game": 145,
+   "barrelPct": 7.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-08-23",
+   "season": 2020,
+   "game": 146,
+   "barrelPct": 7.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-08-24",
+   "season": 2020,
+   "game": 147,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-08-25",
+   "season": 2020,
+   "game": 148,
+   "barrelPct": 8.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-08-26",
+   "season": 2020,
+   "game": 149,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-08-28",
+   "season": 2020,
+   "game": 150,
+   "barrelPct": 9.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-08-29",
+   "season": 2020,
+   "game": 151,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-08-30",
+   "season": 2020,
+   "game": 152,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-08-31",
+   "season": 2020,
+   "game": 153,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-01",
+   "season": 2020,
+   "game": 154,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-02",
+   "season": 2020,
+   "game": 155,
+   "barrelPct": 10.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-03",
+   "season": 2020,
+   "game": 156,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-04",
+   "season": 2020,
+   "game": 157,
+   "barrelPct": 9.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-05",
+   "season": 2020,
+   "game": 158,
+   "barrelPct": 10.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-06",
+   "season": 2020,
+   "game": 159,
+   "barrelPct": 10.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-07",
+   "season": 2020,
+   "game": 160,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-08",
+   "season": 2020,
+   "game": 161,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-09",
+   "season": 2020,
+   "game": 162,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-11",
+   "season": 2020,
+   "game": 163,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-12",
+   "season": 2020,
+   "game": 164,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-13",
+   "season": 2020,
+   "game": 165,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-15",
+   "season": 2020,
+   "game": 166,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-16",
+   "season": 2020,
+   "game": 167,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-17",
+   "season": 2020,
+   "game": 168,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2020-09-18",
+   "season": 2020,
+   "game": 169,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-19",
+   "season": 2020,
+   "game": 170,
+   "barrelPct": 9.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-20",
+   "season": 2020,
+   "game": 171,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-21",
+   "season": 2020,
+   "game": 172,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-22",
+   "season": 2020,
+   "game": 173,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-23",
+   "season": 2020,
+   "game": 174,
+   "barrelPct": 7.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2020-09-24",
+   "season": 2020,
+   "game": 175,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-25",
+   "season": 2020,
+   "game": 176,
+   "barrelPct": 8.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-26",
+   "season": 2020,
+   "game": 177,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2020-09-27",
+   "season": 2020,
+   "game": 178,
+   "barrelPct": 8.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-01",
+   "season": 2021,
+   "game": 179,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-03",
+   "season": 2021,
+   "game": 180,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2021-04-04",
+   "season": 2021,
+   "game": 181,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-05",
+   "season": 2021,
+   "game": 182,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-06",
+   "season": 2021,
+   "game": 183,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-07",
+   "season": 2021,
+   "game": 184,
+   "barrelPct": 8.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-08",
+   "season": 2021,
+   "game": 185,
+   "barrelPct": 9.9,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-04-09",
+   "season": 2021,
+   "game": 186,
+   "barrelPct": 10.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-04-10",
+   "season": 2021,
+   "game": 187,
+   "barrelPct": 9.9,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-04-12",
+   "season": 2021,
+   "game": 188,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-13",
+   "season": 2021,
+   "game": 189,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-14",
+   "season": 2021,
+   "game": 190,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-04-15",
+   "season": 2021,
+   "game": 191,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-04-17",
+   "season": 2021,
+   "game": 192,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-04-18",
+   "season": 2021,
+   "game": 193,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-04-20",
+   "season": 2021,
+   "game": 194,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-04-21",
+   "season": 2021,
+   "game": 195,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-04-23",
+   "season": 2021,
+   "game": 196,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-04-24",
+   "season": 2021,
+   "game": 197,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-04-25",
+   "season": 2021,
+   "game": 198,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-04-27",
+   "season": 2021,
+   "game": 199,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-04-28",
+   "season": 2021,
+   "game": 200,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-04-30",
+   "season": 2021,
+   "game": 201,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-01",
+   "season": 2021,
+   "game": 202,
+   "barrelPct": 11.4,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-02",
+   "season": 2021,
+   "game": 203,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-03",
+   "season": 2021,
+   "game": 204,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-04",
+   "season": 2021,
+   "game": 205,
+   "barrelPct": 11.9,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-05-05",
+   "season": 2021,
+   "game": 206,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-05-06",
+   "season": 2021,
+   "game": 207,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-05-07",
+   "season": 2021,
+   "game": 208,
+   "barrelPct": 11.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-05-08",
+   "season": 2021,
+   "game": 209,
+   "barrelPct": 12.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-05-09",
+   "season": 2021,
+   "game": 210,
+   "barrelPct": 11.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-05-11",
+   "season": 2021,
+   "game": 211,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-05-12",
+   "season": 2021,
+   "game": 212,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-05-13",
+   "season": 2021,
+   "game": 213,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-05-14",
+   "season": 2021,
+   "game": 214,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-05-15",
+   "season": 2021,
+   "game": 215,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-05-16",
+   "season": 2021,
+   "game": 216,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-18",
+   "season": 2021,
+   "game": 217,
+   "barrelPct": 14.1,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-19",
+   "season": 2021,
+   "game": 218,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-20",
+   "season": 2021,
+   "game": 219,
+   "barrelPct": 15.8,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-21",
+   "season": 2021,
+   "game": 220,
+   "barrelPct": 17.9,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-05-22",
+   "season": 2021,
+   "game": 221,
+   "barrelPct": 17.4,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-05-23",
+   "season": 2021,
+   "game": 222,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-05-24",
+   "season": 2021,
+   "game": 223,
+   "barrelPct": 18.1,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-05-25",
+   "season": 2021,
+   "game": 224,
+   "barrelPct": 18.9,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-05-27",
+   "season": 2021,
+   "game": 225,
+   "barrelPct": 18.9,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-05-28",
+   "season": 2021,
+   "game": 226,
+   "barrelPct": 18.9,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-05-30",
+   "season": 2021,
+   "game": 227,
+   "barrelPct": 18.6,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-06-01",
+   "season": 2021,
+   "game": 228,
+   "barrelPct": 19.2,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-06-02",
+   "season": 2021,
+   "game": 229,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-06-04",
+   "season": 2021,
+   "game": 230,
+   "barrelPct": 17.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-06-05",
+   "season": 2021,
+   "game": 231,
+   "barrelPct": 16.7,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-06-06",
+   "season": 2021,
+   "game": 232,
+   "barrelPct": 16.8,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-06-08",
+   "season": 2021,
+   "game": 233,
+   "barrelPct": 17.0,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-06-09",
+   "season": 2021,
+   "game": 234,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-06-10",
+   "season": 2021,
+   "game": 235,
+   "barrelPct": 16.3,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-06-11",
+   "season": 2021,
+   "game": 236,
+   "barrelPct": 17.3,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-06-12",
+   "season": 2021,
+   "game": 237,
+   "barrelPct": 18.8,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-06-13",
+   "season": 2021,
+   "game": 238,
+   "barrelPct": 19.4,
+   "hrPerGame": 0.467
+  },
+  {
+   "date": "2021-06-14",
+   "season": 2021,
+   "game": 239,
+   "barrelPct": 19.4,
+   "hrPerGame": 0.5
+  },
+  {
+   "date": "2021-06-15",
+   "season": 2021,
+   "game": 240,
+   "barrelPct": 19.4,
+   "hrPerGame": 0.5
+  },
+  {
+   "date": "2021-06-16",
+   "season": 2021,
+   "game": 241,
+   "barrelPct": 18.6,
+   "hrPerGame": 0.467
+  },
+  {
+   "date": "2021-06-17",
+   "season": 2021,
+   "game": 242,
+   "barrelPct": 18.6,
+   "hrPerGame": 0.467
+  },
+  {
+   "date": "2021-06-18",
+   "season": 2021,
+   "game": 243,
+   "barrelPct": 17.7,
+   "hrPerGame": 0.467
+  },
+  {
+   "date": "2021-06-19",
+   "season": 2021,
+   "game": 244,
+   "barrelPct": 18.6,
+   "hrPerGame": 0.467
+  },
+  {
+   "date": "2021-06-20",
+   "season": 2021,
+   "game": 245,
+   "barrelPct": 18.1,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-06-22",
+   "season": 2021,
+   "game": 246,
+   "barrelPct": 16.8,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-06-23",
+   "season": 2021,
+   "game": 247,
+   "barrelPct": 16.3,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-06-24",
+   "season": 2021,
+   "game": 248,
+   "barrelPct": 16.9,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-06-25",
+   "season": 2021,
+   "game": 249,
+   "barrelPct": 16.9,
+   "hrPerGame": 0.467
+  },
+  {
+   "date": "2021-06-26",
+   "season": 2021,
+   "game": 250,
+   "barrelPct": 15.9,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-06-27",
+   "season": 2021,
+   "game": 251,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-06-29",
+   "season": 2021,
+   "game": 252,
+   "barrelPct": 16.7,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-06-30",
+   "season": 2021,
+   "game": 253,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-01",
+   "season": 2021,
+   "game": 254,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-07-02",
+   "season": 2021,
+   "game": 255,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-03",
+   "season": 2021,
+   "game": 256,
+   "barrelPct": 18.6,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-04",
+   "season": 2021,
+   "game": 257,
+   "barrelPct": 20.5,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-06",
+   "season": 2021,
+   "game": 258,
+   "barrelPct": 20.7,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-07",
+   "season": 2021,
+   "game": 259,
+   "barrelPct": 20.5,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-09",
+   "season": 2021,
+   "game": 260,
+   "barrelPct": 19.5,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-10",
+   "season": 2021,
+   "game": 261,
+   "barrelPct": 21.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-07-11",
+   "season": 2021,
+   "game": 262,
+   "barrelPct": 20.5,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-07-16",
+   "season": 2021,
+   "game": 263,
+   "barrelPct": 22.6,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-07-18",
+   "season": 2021,
+   "game": 264,
+   "barrelPct": 21.3,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-07-19",
+   "season": 2021,
+   "game": 265,
+   "barrelPct": 21.6,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-07-21",
+   "season": 2021,
+   "game": 266,
+   "barrelPct": 20.9,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2021-07-23",
+   "season": 2021,
+   "game": 267,
+   "barrelPct": 19.5,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2021-07-24",
+   "season": 2021,
+   "game": 268,
+   "barrelPct": 19.5,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-25",
+   "season": 2021,
+   "game": 269,
+   "barrelPct": 18.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-07-26",
+   "season": 2021,
+   "game": 270,
+   "barrelPct": 17.8,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-07-28",
+   "season": 2021,
+   "game": 271,
+   "barrelPct": 17.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-07-29",
+   "season": 2021,
+   "game": 272,
+   "barrelPct": 18.3,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-30",
+   "season": 2021,
+   "game": 273,
+   "barrelPct": 18.5,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-07-31",
+   "season": 2021,
+   "game": 274,
+   "barrelPct": 18.3,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-08-02",
+   "season": 2021,
+   "game": 275,
+   "barrelPct": 18.6,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-08-03",
+   "season": 2021,
+   "game": 276,
+   "barrelPct": 18.4,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-08-04",
+   "season": 2021,
+   "game": 277,
+   "barrelPct": 20.0,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-08-05",
+   "season": 2021,
+   "game": 278,
+   "barrelPct": 18.6,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-08-06",
+   "season": 2021,
+   "game": 279,
+   "barrelPct": 17.6,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-08-07",
+   "season": 2021,
+   "game": 280,
+   "barrelPct": 17.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-08-08",
+   "season": 2021,
+   "game": 281,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-08-10",
+   "season": 2021,
+   "game": 282,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-08-11",
+   "season": 2021,
+   "game": 283,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-08-12",
+   "season": 2021,
+   "game": 284,
+   "barrelPct": 16.2,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-08-13",
+   "season": 2021,
+   "game": 285,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-08-14",
+   "season": 2021,
+   "game": 286,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-08-15",
+   "season": 2021,
+   "game": 287,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-08-17",
+   "season": 2021,
+   "game": 288,
+   "barrelPct": 12.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-08-18",
+   "season": 2021,
+   "game": 289,
+   "barrelPct": 12.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-08-20",
+   "season": 2021,
+   "game": 290,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-08-21",
+   "season": 2021,
+   "game": 291,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-08-22",
+   "season": 2021,
+   "game": 292,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-08-23",
+   "season": 2021,
+   "game": 293,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-08-24",
+   "season": 2021,
+   "game": 294,
+   "barrelPct": 11.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-08-25",
+   "season": 2021,
+   "game": 295,
+   "barrelPct": 11.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-08-26",
+   "season": 2021,
+   "game": 296,
+   "barrelPct": 10.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2021-08-27",
+   "season": 2021,
+   "game": 297,
+   "barrelPct": 10.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2021-08-28",
+   "season": 2021,
+   "game": 298,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2021-08-29",
+   "season": 2021,
+   "game": 299,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2021-08-30",
+   "season": 2021,
+   "game": 300,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-08-31",
+   "season": 2021,
+   "game": 301,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-09-01",
+   "season": 2021,
+   "game": 302,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-09-03",
+   "season": 2021,
+   "game": 303,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-09-04",
+   "season": 2021,
+   "game": 304,
+   "barrelPct": 12.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-09-05",
+   "season": 2021,
+   "game": 305,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2021-09-06",
+   "season": 2021,
+   "game": 306,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-09-07",
+   "season": 2021,
+   "game": 307,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2021-09-08",
+   "season": 2021,
+   "game": 308,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2021-09-09",
+   "season": 2021,
+   "game": 309,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-09-10",
+   "season": 2021,
+   "game": 310,
+   "barrelPct": 10.7,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-09-11",
+   "season": 2021,
+   "game": 311,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2021-09-12",
+   "season": 2021,
+   "game": 312,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-09-13",
+   "season": 2021,
+   "game": 313,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-14",
+   "season": 2021,
+   "game": 314,
+   "barrelPct": 13.6,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-15",
+   "season": 2021,
+   "game": 315,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-17",
+   "season": 2021,
+   "game": 316,
+   "barrelPct": 14.8,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-09-18",
+   "season": 2021,
+   "game": 317,
+   "barrelPct": 15.4,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-09-19",
+   "season": 2021,
+   "game": 318,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-09-20",
+   "season": 2021,
+   "game": 319,
+   "barrelPct": 15.4,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2021-09-21",
+   "season": 2021,
+   "game": 320,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-22",
+   "season": 2021,
+   "game": 321,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-23",
+   "season": 2021,
+   "game": 322,
+   "barrelPct": 14.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-24",
+   "season": 2021,
+   "game": 323,
+   "barrelPct": 15.0,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-25",
+   "season": 2021,
+   "game": 324,
+   "barrelPct": 14.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-26",
+   "season": 2021,
+   "game": 325,
+   "barrelPct": 14.8,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-28",
+   "season": 2021,
+   "game": 326,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-29",
+   "season": 2021,
+   "game": 327,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-09-30",
+   "season": 2021,
+   "game": 328,
+   "barrelPct": 16.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-10-01",
+   "season": 2021,
+   "game": 329,
+   "barrelPct": 16.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2021-10-02",
+   "season": 2021,
+   "game": 330,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2021-10-03",
+   "season": 2021,
+   "game": 331,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-04-08",
+   "season": 2022,
+   "game": 332,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-04-09",
+   "season": 2022,
+   "game": 333,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-04-10",
+   "season": 2022,
+   "game": 334,
+   "barrelPct": 15.5,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-04-11",
+   "season": 2022,
+   "game": 335,
+   "barrelPct": 15.8,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-04-12",
+   "season": 2022,
+   "game": 336,
+   "barrelPct": 16.2,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-04-13",
+   "season": 2022,
+   "game": 337,
+   "barrelPct": 19.0,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2022-04-15",
+   "season": 2022,
+   "game": 338,
+   "barrelPct": 19.0,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2022-04-16",
+   "season": 2022,
+   "game": 339,
+   "barrelPct": 17.8,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2022-04-17",
+   "season": 2022,
+   "game": 340,
+   "barrelPct": 18.4,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2022-04-19",
+   "season": 2022,
+   "game": 341,
+   "barrelPct": 18.3,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-04-21",
+   "season": 2022,
+   "game": 342,
+   "barrelPct": 18.1,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-04-22",
+   "season": 2022,
+   "game": 343,
+   "barrelPct": 18.1,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-04-23",
+   "season": 2022,
+   "game": 344,
+   "barrelPct": 17.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-04-24",
+   "season": 2022,
+   "game": 345,
+   "barrelPct": 15.8,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-04-25",
+   "season": 2022,
+   "game": 346,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-04-26",
+   "season": 2022,
+   "game": 347,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-04-27",
+   "season": 2022,
+   "game": 348,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-04-29",
+   "season": 2022,
+   "game": 349,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-04-30",
+   "season": 2022,
+   "game": 350,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-05-01",
+   "season": 2022,
+   "game": 351,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-05-02",
+   "season": 2022,
+   "game": 352,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-05-03",
+   "season": 2022,
+   "game": 353,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-05-04",
+   "season": 2022,
+   "game": 354,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-05-05",
+   "season": 2022,
+   "game": 355,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-05-07",
+   "season": 2022,
+   "game": 356,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-05-08",
+   "season": 2022,
+   "game": 357,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-05-10",
+   "season": 2022,
+   "game": 358,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-05-11",
+   "season": 2022,
+   "game": 359,
+   "barrelPct": 13.7,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-05-13",
+   "season": 2022,
+   "game": 360,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-05-14",
+   "season": 2022,
+   "game": 361,
+   "barrelPct": 11.7,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-05-15",
+   "season": 2022,
+   "game": 362,
+   "barrelPct": 10.6,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-05-16",
+   "season": 2022,
+   "game": 363,
+   "barrelPct": 10.8,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-05-17",
+   "season": 2022,
+   "game": 364,
+   "barrelPct": 9.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-05-18",
+   "season": 2022,
+   "game": 365,
+   "barrelPct": 9.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-05-20",
+   "season": 2022,
+   "game": 366,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-05-21",
+   "season": 2022,
+   "game": 367,
+   "barrelPct": 6.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2022-05-22",
+   "season": 2022,
+   "game": 368,
+   "barrelPct": 5.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2022-05-23",
+   "season": 2022,
+   "game": 369,
+   "barrelPct": 5.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2022-05-24",
+   "season": 2022,
+   "game": 370,
+   "barrelPct": 6.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2022-05-26",
+   "season": 2022,
+   "game": 371,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-05-27",
+   "season": 2022,
+   "game": 372,
+   "barrelPct": 6.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-05-28",
+   "season": 2022,
+   "game": 373,
+   "barrelPct": 6.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-05-31",
+   "season": 2022,
+   "game": 374,
+   "barrelPct": 6.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-06-01",
+   "season": 2022,
+   "game": 375,
+   "barrelPct": 7.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-06-02",
+   "season": 2022,
+   "game": 376,
+   "barrelPct": 7.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-06-03",
+   "season": 2022,
+   "game": 377,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-06-04",
+   "season": 2022,
+   "game": 378,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-06-05",
+   "season": 2022,
+   "game": 379,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-06-06",
+   "season": 2022,
+   "game": 380,
+   "barrelPct": 8.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-06-07",
+   "season": 2022,
+   "game": 381,
+   "barrelPct": 9.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-06-08",
+   "season": 2022,
+   "game": 382,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-06-10",
+   "season": 2022,
+   "game": 383,
+   "barrelPct": 9.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-06-11",
+   "season": 2022,
+   "game": 384,
+   "barrelPct": 9.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-06-12",
+   "season": 2022,
+   "game": 385,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-06-13",
+   "season": 2022,
+   "game": 386,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-06-14",
+   "season": 2022,
+   "game": 387,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-06-15",
+   "season": 2022,
+   "game": 388,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-06-16",
+   "season": 2022,
+   "game": 389,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-06-17",
+   "season": 2022,
+   "game": 390,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-06-18",
+   "season": 2022,
+   "game": 391,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-06-19",
+   "season": 2022,
+   "game": 392,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-06-21",
+   "season": 2022,
+   "game": 393,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-06-22",
+   "season": 2022,
+   "game": 394,
+   "barrelPct": 15.0,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-06-24",
+   "season": 2022,
+   "game": 395,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-06-25",
+   "season": 2022,
+   "game": 396,
+   "barrelPct": 15.0,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-06-26",
+   "season": 2022,
+   "game": 397,
+   "barrelPct": 15.5,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-06-27",
+   "season": 2022,
+   "game": 398,
+   "barrelPct": 16.7,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2022-06-28",
+   "season": 2022,
+   "game": 399,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2022-06-29",
+   "season": 2022,
+   "game": 400,
+   "barrelPct": 15.6,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-06-30",
+   "season": 2022,
+   "game": 401,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-07-01",
+   "season": 2022,
+   "game": 402,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-07-02",
+   "season": 2022,
+   "game": 403,
+   "barrelPct": 13.9,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-07-03",
+   "season": 2022,
+   "game": 404,
+   "barrelPct": 13.9,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2022-07-04",
+   "season": 2022,
+   "game": 405,
+   "barrelPct": 13.9,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-07-05",
+   "season": 2022,
+   "game": 406,
+   "barrelPct": 14.1,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2022-07-06",
+   "season": 2022,
+   "game": 407,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2022-07-07",
+   "season": 2022,
+   "game": 408,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-07-08",
+   "season": 2022,
+   "game": 409,
+   "barrelPct": 12.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-07-09",
+   "season": 2022,
+   "game": 410,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-07-10",
+   "season": 2022,
+   "game": 411,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-07-12",
+   "season": 2022,
+   "game": 412,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-07-13",
+   "season": 2022,
+   "game": 413,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-07-14",
+   "season": 2022,
+   "game": 414,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-07-15",
+   "season": 2022,
+   "game": 415,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-07-16",
+   "season": 2022,
+   "game": 416,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-07-17",
+   "season": 2022,
+   "game": 417,
+   "barrelPct": 12.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-07-22",
+   "season": 2022,
+   "game": 418,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-07-23",
+   "season": 2022,
+   "game": 419,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-07-24",
+   "season": 2022,
+   "game": 420,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-07-26",
+   "season": 2022,
+   "game": 421,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-07-27",
+   "season": 2022,
+   "game": 422,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-07-28",
+   "season": 2022,
+   "game": 423,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-07-29",
+   "season": 2022,
+   "game": 424,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-07-30",
+   "season": 2022,
+   "game": 425,
+   "barrelPct": 8.9,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-07-31",
+   "season": 2022,
+   "game": 426,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-08-02",
+   "season": 2022,
+   "game": 427,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-08-03",
+   "season": 2022,
+   "game": 428,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2022-08-04",
+   "season": 2022,
+   "game": 429,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-08-05",
+   "season": 2022,
+   "game": 430,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-08-06",
+   "season": 2022,
+   "game": 431,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-08-07",
+   "season": 2022,
+   "game": 432,
+   "barrelPct": 9.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-08-08",
+   "season": 2022,
+   "game": 433,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-08-09",
+   "season": 2022,
+   "game": 434,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-08-12",
+   "season": 2022,
+   "game": 435,
+   "barrelPct": 8.6,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-08-13",
+   "season": 2022,
+   "game": 436,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-08-14",
+   "season": 2022,
+   "game": 437,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-08-15",
+   "season": 2022,
+   "game": 438,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-08-16",
+   "season": 2022,
+   "game": 439,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-17",
+   "season": 2022,
+   "game": 440,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-18",
+   "season": 2022,
+   "game": 441,
+   "barrelPct": 14.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-08-19",
+   "season": 2022,
+   "game": 442,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2022-08-20",
+   "season": 2022,
+   "game": 443,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-21",
+   "season": 2022,
+   "game": 444,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-23",
+   "season": 2022,
+   "game": 445,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-24",
+   "season": 2022,
+   "game": 446,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-25",
+   "season": 2022,
+   "game": 447,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-26",
+   "season": 2022,
+   "game": 448,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-27",
+   "season": 2022,
+   "game": 449,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-28",
+   "season": 2022,
+   "game": 450,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-29",
+   "season": 2022,
+   "game": 451,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-08-30",
+   "season": 2022,
+   "game": 452,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-08-31",
+   "season": 2022,
+   "game": 453,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-09-02",
+   "season": 2022,
+   "game": 454,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-09-03",
+   "season": 2022,
+   "game": 455,
+   "barrelPct": 13.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-09-04",
+   "season": 2022,
+   "game": 456,
+   "barrelPct": 14.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-09-05",
+   "season": 2022,
+   "game": 457,
+   "barrelPct": 13.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-09-06",
+   "season": 2022,
+   "game": 458,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2022-09-07",
+   "season": 2022,
+   "game": 459,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-09-09",
+   "season": 2022,
+   "game": 460,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-10",
+   "season": 2022,
+   "game": 461,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-11",
+   "season": 2022,
+   "game": 462,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-12",
+   "season": 2022,
+   "game": 463,
+   "barrelPct": 15.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-13",
+   "season": 2022,
+   "game": 464,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-14",
+   "season": 2022,
+   "game": 465,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-09-15",
+   "season": 2022,
+   "game": 466,
+   "barrelPct": 12.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-09-16",
+   "season": 2022,
+   "game": 467,
+   "barrelPct": 12.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-09-17",
+   "season": 2022,
+   "game": 468,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-18",
+   "season": 2022,
+   "game": 469,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-20",
+   "season": 2022,
+   "game": 470,
+   "barrelPct": 9.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-21",
+   "season": 2022,
+   "game": 471,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-22",
+   "season": 2022,
+   "game": 472,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-23",
+   "season": 2022,
+   "game": 473,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-24",
+   "season": 2022,
+   "game": 474,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-25",
+   "season": 2022,
+   "game": 475,
+   "barrelPct": 8.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-26",
+   "season": 2022,
+   "game": 476,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-27",
+   "season": 2022,
+   "game": 477,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-28",
+   "season": 2022,
+   "game": 478,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2022-09-30",
+   "season": 2022,
+   "game": 479,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-10-01",
+   "season": 2022,
+   "game": 480,
+   "barrelPct": 8.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-10-02",
+   "season": 2022,
+   "game": 481,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-10-03",
+   "season": 2022,
+   "game": 482,
+   "barrelPct": 9.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2022-10-05",
+   "season": 2022,
+   "game": 483,
+   "barrelPct": 9.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-03-30",
+   "season": 2023,
+   "game": 484,
+   "barrelPct": 9.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-01",
+   "season": 2023,
+   "game": 485,
+   "barrelPct": 9.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-02",
+   "season": 2023,
+   "game": 486,
+   "barrelPct": 10.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-03",
+   "season": 2023,
+   "game": 487,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-04",
+   "season": 2023,
+   "game": 488,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-05",
+   "season": 2023,
+   "game": 489,
+   "barrelPct": 10.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-06",
+   "season": 2023,
+   "game": 490,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-07",
+   "season": 2023,
+   "game": 491,
+   "barrelPct": 11.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-08",
+   "season": 2023,
+   "game": 492,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-09",
+   "season": 2023,
+   "game": 493,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-11",
+   "season": 2023,
+   "game": 494,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-12",
+   "season": 2023,
+   "game": 495,
+   "barrelPct": 10.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-13",
+   "season": 2023,
+   "game": 496,
+   "barrelPct": 10.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-14",
+   "season": 2023,
+   "game": 497,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-15",
+   "season": 2023,
+   "game": 498,
+   "barrelPct": 10.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-16",
+   "season": 2023,
+   "game": 499,
+   "barrelPct": 10.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-17",
+   "season": 2023,
+   "game": 500,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-18",
+   "season": 2023,
+   "game": 501,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-19",
+   "season": 2023,
+   "game": 502,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-04-21",
+   "season": 2023,
+   "game": 503,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-22",
+   "season": 2023,
+   "game": 504,
+   "barrelPct": 11.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-23",
+   "season": 2023,
+   "game": 505,
+   "barrelPct": 12.6,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-24",
+   "season": 2023,
+   "game": 506,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-25",
+   "season": 2023,
+   "game": 507,
+   "barrelPct": 12.7,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-26",
+   "season": 2023,
+   "game": 508,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-04-28",
+   "season": 2023,
+   "game": 509,
+   "barrelPct": 13.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-29",
+   "season": 2023,
+   "game": 510,
+   "barrelPct": 13.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-04-30",
+   "season": 2023,
+   "game": 511,
+   "barrelPct": 13.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-05-01",
+   "season": 2023,
+   "game": 512,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-02",
+   "season": 2023,
+   "game": 513,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-03",
+   "season": 2023,
+   "game": 514,
+   "barrelPct": 13.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-05-04",
+   "season": 2023,
+   "game": 515,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-05-05",
+   "season": 2023,
+   "game": 516,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-05-09",
+   "season": 2023,
+   "game": 517,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-05-10",
+   "season": 2023,
+   "game": 518,
+   "barrelPct": 15.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-05-12",
+   "season": 2023,
+   "game": 519,
+   "barrelPct": 14.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-05-13",
+   "season": 2023,
+   "game": 520,
+   "barrelPct": 15.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-14",
+   "season": 2023,
+   "game": 521,
+   "barrelPct": 15.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-15",
+   "season": 2023,
+   "game": 522,
+   "barrelPct": 15.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-16",
+   "season": 2023,
+   "game": 523,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-18",
+   "season": 2023,
+   "game": 524,
+   "barrelPct": 15.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-19",
+   "season": 2023,
+   "game": 525,
+   "barrelPct": 15.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-20",
+   "season": 2023,
+   "game": 526,
+   "barrelPct": 15.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-21",
+   "season": 2023,
+   "game": 527,
+   "barrelPct": 15.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-22",
+   "season": 2023,
+   "game": 528,
+   "barrelPct": 15.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-23",
+   "season": 2023,
+   "game": 529,
+   "barrelPct": 16.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-05-24",
+   "season": 2023,
+   "game": 530,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-05-25",
+   "season": 2023,
+   "game": 531,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-26",
+   "season": 2023,
+   "game": 532,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-05-27",
+   "season": 2023,
+   "game": 533,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-05-28",
+   "season": 2023,
+   "game": 534,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-05-30",
+   "season": 2023,
+   "game": 535,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-05-31",
+   "season": 2023,
+   "game": 536,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-01",
+   "season": 2023,
+   "game": 537,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-02",
+   "season": 2023,
+   "game": 538,
+   "barrelPct": 14.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-03",
+   "season": 2023,
+   "game": 539,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-04",
+   "season": 2023,
+   "game": 540,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-06-05",
+   "season": 2023,
+   "game": 541,
+   "barrelPct": 15.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-06-06",
+   "season": 2023,
+   "game": 542,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-06-07",
+   "season": 2023,
+   "game": 543,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-06-08",
+   "season": 2023,
+   "game": 544,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-09",
+   "season": 2023,
+   "game": 545,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-10",
+   "season": 2023,
+   "game": 546,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-11",
+   "season": 2023,
+   "game": 547,
+   "barrelPct": 11.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-13",
+   "season": 2023,
+   "game": 548,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-14",
+   "season": 2023,
+   "game": 549,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-15",
+   "season": 2023,
+   "game": 550,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-16",
+   "season": 2023,
+   "game": 551,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-17",
+   "season": 2023,
+   "game": 552,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-18",
+   "season": 2023,
+   "game": 553,
+   "barrelPct": 10.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-19",
+   "season": 2023,
+   "game": 554,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-20",
+   "season": 2023,
+   "game": 555,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-21",
+   "season": 2023,
+   "game": 556,
+   "barrelPct": 10.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2023-06-23",
+   "season": 2023,
+   "game": 557,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-24",
+   "season": 2023,
+   "game": 558,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-06-25",
+   "season": 2023,
+   "game": 559,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-27",
+   "season": 2023,
+   "game": 560,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-28",
+   "season": 2023,
+   "game": 561,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-06-29",
+   "season": 2023,
+   "game": 562,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-06-30",
+   "season": 2023,
+   "game": 563,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-07-01",
+   "season": 2023,
+   "game": 564,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-07-02",
+   "season": 2023,
+   "game": 565,
+   "barrelPct": 13.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-07-04",
+   "season": 2023,
+   "game": 566,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-06",
+   "season": 2023,
+   "game": 567,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-07",
+   "season": 2023,
+   "game": 568,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-08",
+   "season": 2023,
+   "game": 569,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-09",
+   "season": 2023,
+   "game": 570,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-07-14",
+   "season": 2023,
+   "game": 571,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-15",
+   "season": 2023,
+   "game": 572,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-16",
+   "season": 2023,
+   "game": 573,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-18",
+   "season": 2023,
+   "game": 574,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-19",
+   "season": 2023,
+   "game": 575,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-07-20",
+   "season": 2023,
+   "game": 576,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-07-21",
+   "season": 2023,
+   "game": 577,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-07-22",
+   "season": 2023,
+   "game": 578,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-07-23",
+   "season": 2023,
+   "game": 579,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-07-24",
+   "season": 2023,
+   "game": 580,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-07-25",
+   "season": 2023,
+   "game": 581,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-07-26",
+   "season": 2023,
+   "game": 582,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-07-28",
+   "season": 2023,
+   "game": 583,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-07-29",
+   "season": 2023,
+   "game": 584,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-07-30",
+   "season": 2023,
+   "game": 585,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-07-31",
+   "season": 2023,
+   "game": 586,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-08-01",
+   "season": 2023,
+   "game": 587,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-08-02",
+   "season": 2023,
+   "game": 588,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-08-03",
+   "season": 2023,
+   "game": 589,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-08-04",
+   "season": 2023,
+   "game": 590,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-08-05",
+   "season": 2023,
+   "game": 591,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-08-07",
+   "season": 2023,
+   "game": 592,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-08-08",
+   "season": 2023,
+   "game": 593,
+   "barrelPct": 10.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-08-09",
+   "season": 2023,
+   "game": 594,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-08-10",
+   "season": 2023,
+   "game": 595,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-08-11",
+   "season": 2023,
+   "game": 596,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-08-12",
+   "season": 2023,
+   "game": 597,
+   "barrelPct": 9.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-08-13",
+   "season": 2023,
+   "game": 598,
+   "barrelPct": 7.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-08-15",
+   "season": 2023,
+   "game": 599,
+   "barrelPct": 7.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-08-16",
+   "season": 2023,
+   "game": 600,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-08-18",
+   "season": 2023,
+   "game": 601,
+   "barrelPct": 6.6,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-08-19",
+   "season": 2023,
+   "game": 602,
+   "barrelPct": 6.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-08-20",
+   "season": 2023,
+   "game": 603,
+   "barrelPct": 5.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-08-22",
+   "season": 2023,
+   "game": 604,
+   "barrelPct": 5.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-08-23",
+   "season": 2023,
+   "game": 605,
+   "barrelPct": 5.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-08-24",
+   "season": 2023,
+   "game": 606,
+   "barrelPct": 4.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-08-25",
+   "season": 2023,
+   "game": 607,
+   "barrelPct": 5.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-08-26",
+   "season": 2023,
+   "game": 608,
+   "barrelPct": 5.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-08-27",
+   "season": 2023,
+   "game": 609,
+   "barrelPct": 5.9,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-08-28",
+   "season": 2023,
+   "game": 610,
+   "barrelPct": 6.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-08-29",
+   "season": 2023,
+   "game": 611,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-08-30",
+   "season": 2023,
+   "game": 612,
+   "barrelPct": 5.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-09-01",
+   "season": 2023,
+   "game": 613,
+   "barrelPct": 4.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-09-02",
+   "season": 2023,
+   "game": 614,
+   "barrelPct": 4.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-09-03",
+   "season": 2023,
+   "game": 615,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-09-04",
+   "season": 2023,
+   "game": 616,
+   "barrelPct": 6.6,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-09-05",
+   "season": 2023,
+   "game": 617,
+   "barrelPct": 6.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-09-06",
+   "season": 2023,
+   "game": 618,
+   "barrelPct": 7.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-09-08",
+   "season": 2023,
+   "game": 619,
+   "barrelPct": 6.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-09-09",
+   "season": 2023,
+   "game": 620,
+   "barrelPct": 6.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-09-10",
+   "season": 2023,
+   "game": 621,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-09-11",
+   "season": 2023,
+   "game": 622,
+   "barrelPct": 6.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-09-12",
+   "season": 2023,
+   "game": 623,
+   "barrelPct": 6.9,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-09-13",
+   "season": 2023,
+   "game": 624,
+   "barrelPct": 5.9,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2023-09-14",
+   "season": 2023,
+   "game": 625,
+   "barrelPct": 7.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2023-09-15",
+   "season": 2023,
+   "game": 626,
+   "barrelPct": 8.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2023-09-16",
+   "season": 2023,
+   "game": 627,
+   "barrelPct": 7.9,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-09-17",
+   "season": 2023,
+   "game": 628,
+   "barrelPct": 8.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-09-19",
+   "season": 2023,
+   "game": 629,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-09-21",
+   "season": 2023,
+   "game": 630,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-09-22",
+   "season": 2023,
+   "game": 631,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-09-23",
+   "season": 2023,
+   "game": 632,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2023-09-24",
+   "season": 2023,
+   "game": 633,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-09-26",
+   "season": 2023,
+   "game": 634,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-09-27",
+   "season": 2023,
+   "game": 635,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-09-28",
+   "season": 2023,
+   "game": 636,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2023-09-29",
+   "season": 2023,
+   "game": 637,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2023-09-30",
+   "season": 2023,
+   "game": 638,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-03-28",
+   "season": 2024,
+   "game": 639,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-03-29",
+   "season": 2024,
+   "game": 640,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-03-30",
+   "season": 2024,
+   "game": 641,
+   "barrelPct": 9.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-03-31",
+   "season": 2024,
+   "game": 642,
+   "barrelPct": 10.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-04-01",
+   "season": 2024,
+   "game": 643,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-04-02",
+   "season": 2024,
+   "game": 644,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-04-03",
+   "season": 2024,
+   "game": 645,
+   "barrelPct": 8.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-04-05",
+   "season": 2024,
+   "game": 646,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-04-06",
+   "season": 2024,
+   "game": 647,
+   "barrelPct": 9.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-04-07",
+   "season": 2024,
+   "game": 648,
+   "barrelPct": 8.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-04-08",
+   "season": 2024,
+   "game": 649,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-04-09",
+   "season": 2024,
+   "game": 650,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-04-10",
+   "season": 2024,
+   "game": 651,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-04-12",
+   "season": 2024,
+   "game": 652,
+   "barrelPct": 10.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-04-13",
+   "season": 2024,
+   "game": 653,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-04-14",
+   "season": 2024,
+   "game": 654,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-04-15",
+   "season": 2024,
+   "game": 655,
+   "barrelPct": 10.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-04-16",
+   "season": 2024,
+   "game": 656,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-04-17",
+   "season": 2024,
+   "game": 657,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-04-19",
+   "season": 2024,
+   "game": 658,
+   "barrelPct": 9.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-04-20",
+   "season": 2024,
+   "game": 659,
+   "barrelPct": 9.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-04-21",
+   "season": 2024,
+   "game": 660,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-04-22",
+   "season": 2024,
+   "game": 661,
+   "barrelPct": 9.1,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-04-23",
+   "season": 2024,
+   "game": 662,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-04-24",
+   "season": 2024,
+   "game": 663,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-04-26",
+   "season": 2024,
+   "game": 664,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-04-27",
+   "season": 2024,
+   "game": 665,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-04-28",
+   "season": 2024,
+   "game": 666,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-04-29",
+   "season": 2024,
+   "game": 667,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-04-30",
+   "season": 2024,
+   "game": 668,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-05-01",
+   "season": 2024,
+   "game": 669,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-03",
+   "season": 2024,
+   "game": 670,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-04",
+   "season": 2024,
+   "game": 671,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-05",
+   "season": 2024,
+   "game": 672,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-05-07",
+   "season": 2024,
+   "game": 673,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-05-08",
+   "season": 2024,
+   "game": 674,
+   "barrelPct": 12.9,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-05-10",
+   "season": 2024,
+   "game": 675,
+   "barrelPct": 13.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-05-11",
+   "season": 2024,
+   "game": 676,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-05-12",
+   "season": 2024,
+   "game": 677,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-13",
+   "season": 2024,
+   "game": 678,
+   "barrelPct": 12.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-15",
+   "season": 2024,
+   "game": 679,
+   "barrelPct": 12.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-17",
+   "season": 2024,
+   "game": 680,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-18",
+   "season": 2024,
+   "game": 681,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2024-05-19",
+   "season": 2024,
+   "game": 682,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2024-05-20",
+   "season": 2024,
+   "game": 683,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2024-05-21",
+   "season": 2024,
+   "game": 684,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2024-05-22",
+   "season": 2024,
+   "game": 685,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2024-05-23",
+   "season": 2024,
+   "game": 686,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-24",
+   "season": 2024,
+   "game": 687,
+   "barrelPct": 14.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-25",
+   "season": 2024,
+   "game": 688,
+   "barrelPct": 14.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-26",
+   "season": 2024,
+   "game": 689,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-27",
+   "season": 2024,
+   "game": 690,
+   "barrelPct": 14.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-28",
+   "season": 2024,
+   "game": 691,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-29",
+   "season": 2024,
+   "game": 692,
+   "barrelPct": 13.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-05-31",
+   "season": 2024,
+   "game": 693,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-06-01",
+   "season": 2024,
+   "game": 694,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-06-02",
+   "season": 2024,
+   "game": 695,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2024-06-03",
+   "season": 2024,
+   "game": 696,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-04",
+   "season": 2024,
+   "game": 697,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-05",
+   "season": 2024,
+   "game": 698,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-06",
+   "season": 2024,
+   "game": 699,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-06-07",
+   "season": 2024,
+   "game": 700,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-06-08",
+   "season": 2024,
+   "game": 701,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-06-09",
+   "season": 2024,
+   "game": 702,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-10",
+   "season": 2024,
+   "game": 703,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-11",
+   "season": 2024,
+   "game": 704,
+   "barrelPct": 10.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-12",
+   "season": 2024,
+   "game": 705,
+   "barrelPct": 9.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-14",
+   "season": 2024,
+   "game": 706,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-15",
+   "season": 2024,
+   "game": 707,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-16",
+   "season": 2024,
+   "game": 708,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-17",
+   "season": 2024,
+   "game": 709,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-18",
+   "season": 2024,
+   "game": 710,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-19",
+   "season": 2024,
+   "game": 711,
+   "barrelPct": 10.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2024-06-21",
+   "season": 2024,
+   "game": 712,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-06-22",
+   "season": 2024,
+   "game": 713,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-06-23",
+   "season": 2024,
+   "game": 714,
+   "barrelPct": 12.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-06-24",
+   "season": 2024,
+   "game": 715,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-06-25",
+   "season": 2024,
+   "game": 716,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-06-26",
+   "season": 2024,
+   "game": 717,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-06-27",
+   "season": 2024,
+   "game": 718,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-06-28",
+   "season": 2024,
+   "game": 719,
+   "barrelPct": 15.7,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-06-29",
+   "season": 2024,
+   "game": 720,
+   "barrelPct": 16.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-06-30",
+   "season": 2024,
+   "game": 721,
+   "barrelPct": 15.7,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-07-02",
+   "season": 2024,
+   "game": 722,
+   "barrelPct": 15.8,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-07-03",
+   "season": 2024,
+   "game": 723,
+   "barrelPct": 15.8,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-07-04",
+   "season": 2024,
+   "game": 724,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-07-05",
+   "season": 2024,
+   "game": 725,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-07-06",
+   "season": 2024,
+   "game": 726,
+   "barrelPct": 14.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-07-07",
+   "season": 2024,
+   "game": 727,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-07-09",
+   "season": 2024,
+   "game": 728,
+   "barrelPct": 13.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-07-10",
+   "season": 2024,
+   "game": 729,
+   "barrelPct": 12.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-07-11",
+   "season": 2024,
+   "game": 730,
+   "barrelPct": 12.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-07-12",
+   "season": 2024,
+   "game": 731,
+   "barrelPct": 12.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-07-13",
+   "season": 2024,
+   "game": 732,
+   "barrelPct": 12.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-07-14",
+   "season": 2024,
+   "game": 733,
+   "barrelPct": 13.6,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-07-19",
+   "season": 2024,
+   "game": 734,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-07-20",
+   "season": 2024,
+   "game": 735,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2024-07-21",
+   "season": 2024,
+   "game": 736,
+   "barrelPct": 15.0,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2024-07-23",
+   "season": 2024,
+   "game": 737,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2024-07-24",
+   "season": 2024,
+   "game": 738,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-07-25",
+   "season": 2024,
+   "game": 739,
+   "barrelPct": 16.2,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-07-26",
+   "season": 2024,
+   "game": 740,
+   "barrelPct": 15.7,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-07-27",
+   "season": 2024,
+   "game": 741,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-07-28",
+   "season": 2024,
+   "game": 742,
+   "barrelPct": 13.7,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-07-29",
+   "season": 2024,
+   "game": 743,
+   "barrelPct": 17.6,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2024-07-30",
+   "season": 2024,
+   "game": 744,
+   "barrelPct": 17.0,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2024-07-31",
+   "season": 2024,
+   "game": 745,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-08-02",
+   "season": 2024,
+   "game": 746,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-08-03",
+   "season": 2024,
+   "game": 747,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2024-08-04",
+   "season": 2024,
+   "game": 748,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-08-06",
+   "season": 2024,
+   "game": 749,
+   "barrelPct": 14.6,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2024-08-07",
+   "season": 2024,
+   "game": 750,
+   "barrelPct": 14.7,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2024-08-08",
+   "season": 2024,
+   "game": 751,
+   "barrelPct": 16.3,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2024-08-09",
+   "season": 2024,
+   "game": 752,
+   "barrelPct": 16.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2024-08-10",
+   "season": 2024,
+   "game": 753,
+   "barrelPct": 16.3,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2024-08-11",
+   "season": 2024,
+   "game": 754,
+   "barrelPct": 16.2,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2024-08-12",
+   "season": 2024,
+   "game": 755,
+   "barrelPct": 16.7,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2024-08-13",
+   "season": 2024,
+   "game": 756,
+   "barrelPct": 17.6,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-08-14",
+   "season": 2024,
+   "game": 757,
+   "barrelPct": 18.5,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2024-08-16",
+   "season": 2024,
+   "game": 758,
+   "barrelPct": 18.3,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2024-08-17",
+   "season": 2024,
+   "game": 759,
+   "barrelPct": 18.7,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2024-08-18",
+   "season": 2024,
+   "game": 760,
+   "barrelPct": 18.7,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2024-08-19",
+   "season": 2024,
+   "game": 761,
+   "barrelPct": 19.8,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2024-08-20",
+   "season": 2024,
+   "game": 762,
+   "barrelPct": 19.6,
+   "hrPerGame": 0.433
+  },
+  {
+   "date": "2024-08-21",
+   "season": 2024,
+   "game": 763,
+   "barrelPct": 19.8,
+   "hrPerGame": 0.4
+  },
+  {
+   "date": "2024-08-22",
+   "season": 2024,
+   "game": 764,
+   "barrelPct": 19.0,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-08-24",
+   "season": 2024,
+   "game": 765,
+   "barrelPct": 20.2,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-08-25",
+   "season": 2024,
+   "game": 766,
+   "barrelPct": 20.2,
+   "hrPerGame": 0.367
+  },
+  {
+   "date": "2024-08-26",
+   "season": 2024,
+   "game": 767,
+   "barrelPct": 19.0,
+   "hrPerGame": 0.333
+  },
+  {
+   "date": "2024-08-27",
+   "season": 2024,
+   "game": 768,
+   "barrelPct": 17.8,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2024-08-28",
+   "season": 2024,
+   "game": 769,
+   "barrelPct": 17.9,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2024-08-29",
+   "season": 2024,
+   "game": 770,
+   "barrelPct": 18.3,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2024-08-30",
+   "season": 2024,
+   "game": 771,
+   "barrelPct": 18.3,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2024-08-31",
+   "season": 2024,
+   "game": 772,
+   "barrelPct": 17.4,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2024-09-03",
+   "season": 2024,
+   "game": 773,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-09-04",
+   "season": 2024,
+   "game": 774,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-09-06",
+   "season": 2024,
+   "game": 775,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-09-07",
+   "season": 2024,
+   "game": 776,
+   "barrelPct": 14.8,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2024-09-08",
+   "season": 2024,
+   "game": 777,
+   "barrelPct": 13.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-09-09",
+   "season": 2024,
+   "game": 778,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-09-10",
+   "season": 2024,
+   "game": 779,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-09-11",
+   "season": 2024,
+   "game": 780,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-09-13",
+   "season": 2024,
+   "game": 781,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-14",
+   "season": 2024,
+   "game": 782,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-15",
+   "season": 2024,
+   "game": 783,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-17",
+   "season": 2024,
+   "game": 784,
+   "barrelPct": 13.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-18",
+   "season": 2024,
+   "game": 785,
+   "barrelPct": 12.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-19",
+   "season": 2024,
+   "game": 786,
+   "barrelPct": 13.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2024-09-20",
+   "season": 2024,
+   "game": 787,
+   "barrelPct": 12.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-21",
+   "season": 2024,
+   "game": 788,
+   "barrelPct": 12.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-22",
+   "season": 2024,
+   "game": 789,
+   "barrelPct": 11.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-23",
+   "season": 2024,
+   "game": 790,
+   "barrelPct": 11.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2024-09-24",
+   "season": 2024,
+   "game": 791,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-09-25",
+   "season": 2024,
+   "game": 792,
+   "barrelPct": 12.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-09-27",
+   "season": 2024,
+   "game": 793,
+   "barrelPct": 12.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-09-28",
+   "season": 2024,
+   "game": 794,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2024-09-29",
+   "season": 2024,
+   "game": 795,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-03-27",
+   "season": 2025,
+   "game": 796,
+   "barrelPct": 10.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-03-28",
+   "season": 2025,
+   "game": 797,
+   "barrelPct": 10.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-03-29",
+   "season": 2025,
+   "game": 798,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-03-30",
+   "season": 2025,
+   "game": 799,
+   "barrelPct": 11.9,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-03-31",
+   "season": 2025,
+   "game": 800,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-04-01",
+   "season": 2025,
+   "game": 801,
+   "barrelPct": 11.0,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-04-02",
+   "season": 2025,
+   "game": 802,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-04-04",
+   "season": 2025,
+   "game": 803,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-05",
+   "season": 2025,
+   "game": 804,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-06",
+   "season": 2025,
+   "game": 805,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-07",
+   "season": 2025,
+   "game": 806,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-08",
+   "season": 2025,
+   "game": 807,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-09",
+   "season": 2025,
+   "game": 808,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-10",
+   "season": 2025,
+   "game": 809,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-12",
+   "season": 2025,
+   "game": 810,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-13",
+   "season": 2025,
+   "game": 811,
+   "barrelPct": 9.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-14",
+   "season": 2025,
+   "game": 812,
+   "barrelPct": 10.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-15",
+   "season": 2025,
+   "game": 813,
+   "barrelPct": 10.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-16",
+   "season": 2025,
+   "game": 814,
+   "barrelPct": 12.0,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-04-18",
+   "season": 2025,
+   "game": 815,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-04-19",
+   "season": 2025,
+   "game": 816,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2025-04-20",
+   "season": 2025,
+   "game": 817,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2025-04-21",
+   "season": 2025,
+   "game": 818,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2025-04-22",
+   "season": 2025,
+   "game": 819,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2025-04-23",
+   "season": 2025,
+   "game": 820,
+   "barrelPct": 12.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2025-04-25",
+   "season": 2025,
+   "game": 821,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-27",
+   "season": 2025,
+   "game": 822,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-04-29",
+   "season": 2025,
+   "game": 823,
+   "barrelPct": 13.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-04-30",
+   "season": 2025,
+   "game": 824,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-05-01",
+   "season": 2025,
+   "game": 825,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-02",
+   "season": 2025,
+   "game": 826,
+   "barrelPct": 15.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-03",
+   "season": 2025,
+   "game": 827,
+   "barrelPct": 16.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-04",
+   "season": 2025,
+   "game": 828,
+   "barrelPct": 16.8,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-06",
+   "season": 2025,
+   "game": 829,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-07",
+   "season": 2025,
+   "game": 830,
+   "barrelPct": 16.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-08",
+   "season": 2025,
+   "game": 831,
+   "barrelPct": 16.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-09",
+   "season": 2025,
+   "game": 832,
+   "barrelPct": 15.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-10",
+   "season": 2025,
+   "game": 833,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-11",
+   "season": 2025,
+   "game": 834,
+   "barrelPct": 16.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-13",
+   "season": 2025,
+   "game": 835,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-14",
+   "season": 2025,
+   "game": 836,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-05-15",
+   "season": 2025,
+   "game": 837,
+   "barrelPct": 16.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-05-16",
+   "season": 2025,
+   "game": 838,
+   "barrelPct": 17.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-05-17",
+   "season": 2025,
+   "game": 839,
+   "barrelPct": 15.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-05-18",
+   "season": 2025,
+   "game": 840,
+   "barrelPct": 14.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-05-20",
+   "season": 2025,
+   "game": 841,
+   "barrelPct": 16.1,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-21",
+   "season": 2025,
+   "game": 842,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-22",
+   "season": 2025,
+   "game": 843,
+   "barrelPct": 15.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-23",
+   "season": 2025,
+   "game": 844,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-05-24",
+   "season": 2025,
+   "game": 845,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-25",
+   "season": 2025,
+   "game": 846,
+   "barrelPct": 15.4,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-26",
+   "season": 2025,
+   "game": 847,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-27",
+   "season": 2025,
+   "game": 848,
+   "barrelPct": 16.3,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-28",
+   "season": 2025,
+   "game": 849,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-29",
+   "season": 2025,
+   "game": 850,
+   "barrelPct": 17.9,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2025-05-30",
+   "season": 2025,
+   "game": 851,
+   "barrelPct": 16.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-05-31",
+   "season": 2025,
+   "game": 852,
+   "barrelPct": 17.9,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-06-01",
+   "season": 2025,
+   "game": 853,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-03",
+   "season": 2025,
+   "game": 854,
+   "barrelPct": 15.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-04",
+   "season": 2025,
+   "game": 855,
+   "barrelPct": 14.9,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-05",
+   "season": 2025,
+   "game": 856,
+   "barrelPct": 13.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-06",
+   "season": 2025,
+   "game": 857,
+   "barrelPct": 12.6,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-07",
+   "season": 2025,
+   "game": 858,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-08",
+   "season": 2025,
+   "game": 859,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-09",
+   "season": 2025,
+   "game": 860,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-11",
+   "season": 2025,
+   "game": 861,
+   "barrelPct": 13.9,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-13",
+   "season": 2025,
+   "game": 862,
+   "barrelPct": 15.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-14",
+   "season": 2025,
+   "game": 863,
+   "barrelPct": 15.7,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-15",
+   "season": 2025,
+   "game": 864,
+   "barrelPct": 15.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-17",
+   "season": 2025,
+   "game": 865,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-18",
+   "season": 2025,
+   "game": 866,
+   "barrelPct": 17.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-19",
+   "season": 2025,
+   "game": 867,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-20",
+   "season": 2025,
+   "game": 868,
+   "barrelPct": 16.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-21",
+   "season": 2025,
+   "game": 869,
+   "barrelPct": 17.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-22",
+   "season": 2025,
+   "game": 870,
+   "barrelPct": 18.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-24",
+   "season": 2025,
+   "game": 871,
+   "barrelPct": 17.0,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-25",
+   "season": 2025,
+   "game": 872,
+   "barrelPct": 18.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-26",
+   "season": 2025,
+   "game": 873,
+   "barrelPct": 17.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-27",
+   "season": 2025,
+   "game": 874,
+   "barrelPct": 17.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-28",
+   "season": 2025,
+   "game": 875,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-06-29",
+   "season": 2025,
+   "game": 876,
+   "barrelPct": 16.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-06-30",
+   "season": 2025,
+   "game": 877,
+   "barrelPct": 16.5,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-01",
+   "season": 2025,
+   "game": 878,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-02",
+   "season": 2025,
+   "game": 879,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-03",
+   "season": 2025,
+   "game": 880,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-05",
+   "season": 2025,
+   "game": 881,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-06",
+   "season": 2025,
+   "game": 882,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-07",
+   "season": 2025,
+   "game": 883,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-08",
+   "season": 2025,
+   "game": 884,
+   "barrelPct": 12.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-09",
+   "season": 2025,
+   "game": 885,
+   "barrelPct": 11.1,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-11",
+   "season": 2025,
+   "game": 886,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-13",
+   "season": 2025,
+   "game": 887,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-18",
+   "season": 2025,
+   "game": 888,
+   "barrelPct": 11.6,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-19",
+   "season": 2025,
+   "game": 889,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-20",
+   "season": 2025,
+   "game": 890,
+   "barrelPct": 11.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-21",
+   "season": 2025,
+   "game": 891,
+   "barrelPct": 10.9,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-22",
+   "season": 2025,
+   "game": 892,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-23",
+   "season": 2025,
+   "game": 893,
+   "barrelPct": 8.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-24",
+   "season": 2025,
+   "game": 894,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-25",
+   "season": 2025,
+   "game": 895,
+   "barrelPct": 8.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-07-26",
+   "season": 2025,
+   "game": 896,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-27",
+   "season": 2025,
+   "game": 897,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-28",
+   "season": 2025,
+   "game": 898,
+   "barrelPct": 9.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-07-29",
+   "season": 2025,
+   "game": 899,
+   "barrelPct": 8.0,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-07-30",
+   "season": 2025,
+   "game": 900,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-08-01",
+   "season": 2025,
+   "game": 901,
+   "barrelPct": 9.8,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-08-02",
+   "season": 2025,
+   "game": 902,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-08-03",
+   "season": 2025,
+   "game": 903,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-08-04",
+   "season": 2025,
+   "game": 904,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-08-05",
+   "season": 2025,
+   "game": 905,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-08-06",
+   "season": 2025,
+   "game": 906,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-08-08",
+   "season": 2025,
+   "game": 907,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-08-09",
+   "season": 2025,
+   "game": 908,
+   "barrelPct": 10.6,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-08-10",
+   "season": 2025,
+   "game": 909,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2025-08-12",
+   "season": 2025,
+   "game": 910,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2025-08-13",
+   "season": 2025,
+   "game": 911,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2025-08-14",
+   "season": 2025,
+   "game": 912,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-08-15",
+   "season": 2025,
+   "game": 913,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-08-16",
+   "season": 2025,
+   "game": 914,
+   "barrelPct": 11.5,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-08-17",
+   "season": 2025,
+   "game": 915,
+   "barrelPct": 12.7,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2025-08-18",
+   "season": 2025,
+   "game": 916,
+   "barrelPct": 13.0,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2025-08-24",
+   "season": 2025,
+   "game": 917,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2025-08-25",
+   "season": 2025,
+   "game": 918,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2025-08-26",
+   "season": 2025,
+   "game": 919,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2025-08-27",
+   "season": 2025,
+   "game": 920,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-08-29",
+   "season": 2025,
+   "game": 921,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-08-30",
+   "season": 2025,
+   "game": 922,
+   "barrelPct": 14.4,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-08-31",
+   "season": 2025,
+   "game": 923,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-09-01",
+   "season": 2025,
+   "game": 924,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-09-02",
+   "season": 2025,
+   "game": 925,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-09-03",
+   "season": 2025,
+   "game": 926,
+   "barrelPct": 13.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-09-05",
+   "season": 2025,
+   "game": 927,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.3
+  },
+  {
+   "date": "2025-09-06",
+   "season": 2025,
+   "game": 928,
+   "barrelPct": 14.0,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-09-07",
+   "season": 2025,
+   "game": 929,
+   "barrelPct": 15.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-09-09",
+   "season": 2025,
+   "game": 930,
+   "barrelPct": 14.3,
+   "hrPerGame": 0.267
+  },
+  {
+   "date": "2025-09-10",
+   "season": 2025,
+   "game": 931,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2025-09-11",
+   "season": 2025,
+   "game": 932,
+   "barrelPct": 12.2,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2025-09-12",
+   "season": 2025,
+   "game": 933,
+   "barrelPct": 13.1,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2025-09-13",
+   "season": 2025,
+   "game": 934,
+   "barrelPct": 13.4,
+   "hrPerGame": 0.233
+  },
+  {
+   "date": "2025-09-14",
+   "season": 2025,
+   "game": 935,
+   "barrelPct": 13.7,
+   "hrPerGame": 0.2
+  },
+  {
+   "date": "2025-09-15",
+   "season": 2025,
+   "game": 936,
+   "barrelPct": 11.8,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-09-16",
+   "season": 2025,
+   "game": 937,
+   "barrelPct": 11.3,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-09-17",
+   "season": 2025,
+   "game": 938,
+   "barrelPct": 11.2,
+   "hrPerGame": 0.167
+  },
+  {
+   "date": "2025-09-18",
+   "season": 2025,
+   "game": 939,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-09-19",
+   "season": 2025,
+   "game": 940,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-09-20",
+   "season": 2025,
+   "game": 941,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.133
+  },
+  {
+   "date": "2025-09-21",
+   "season": 2025,
+   "game": 942,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-09-23",
+   "season": 2025,
+   "game": 943,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-09-24",
+   "season": 2025,
+   "game": 944,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2025-09-25",
+   "season": 2025,
+   "game": 945,
+   "barrelPct": 9.0,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-09-26",
+   "season": 2025,
+   "game": 946,
+   "barrelPct": 8.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-09-27",
+   "season": 2025,
+   "game": 947,
+   "barrelPct": 8.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2025-09-28",
+   "season": 2025,
+   "game": 948,
+   "barrelPct": 7.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-03-27",
+   "season": 2026,
+   "game": 949,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-03-28",
+   "season": 2026,
+   "game": 950,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-03-29",
+   "season": 2026,
+   "game": 951,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-03-30",
+   "season": 2026,
+   "game": 952,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-03-31",
+   "season": 2026,
+   "game": 953,
+   "barrelPct": 6.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-01",
+   "season": 2026,
+   "game": 954,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-03",
+   "season": 2026,
+   "game": 955,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-04",
+   "season": 2026,
+   "game": 956,
+   "barrelPct": 8.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-05",
+   "season": 2026,
+   "game": 957,
+   "barrelPct": 9.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-06",
+   "season": 2026,
+   "game": 958,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-07",
+   "season": 2026,
+   "game": 959,
+   "barrelPct": 8.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-08",
+   "season": 2026,
+   "game": 960,
+   "barrelPct": 8.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-10",
+   "season": 2026,
+   "game": 961,
+   "barrelPct": 10.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-11",
+   "season": 2026,
+   "game": 962,
+   "barrelPct": 10.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-12",
+   "season": 2026,
+   "game": 963,
+   "barrelPct": 9.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-14",
+   "season": 2026,
+   "game": 964,
+   "barrelPct": 10.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-15",
+   "season": 2026,
+   "game": 965,
+   "barrelPct": 9.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-16",
+   "season": 2026,
+   "game": 966,
+   "barrelPct": 9.4,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-17",
+   "season": 2026,
+   "game": 967,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-18",
+   "season": 2026,
+   "game": 968,
+   "barrelPct": 9.6,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-19",
+   "season": 2026,
+   "game": 969,
+   "barrelPct": 9.5,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-04-20",
+   "season": 2026,
+   "game": 970,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-21",
+   "season": 2026,
+   "game": 971,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-22",
+   "season": 2026,
+   "game": 972,
+   "barrelPct": 9.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-24",
+   "season": 2026,
+   "game": 973,
+   "barrelPct": 10.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-25",
+   "season": 2026,
+   "game": 974,
+   "barrelPct": 10.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-26",
+   "season": 2026,
+   "game": 975,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-27",
+   "season": 2026,
+   "game": 976,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-28",
+   "season": 2026,
+   "game": 977,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-29",
+   "season": 2026,
+   "game": 978,
+   "barrelPct": 12.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-04-30",
+   "season": 2026,
+   "game": 979,
+   "barrelPct": 12.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-01",
+   "season": 2026,
+   "game": 980,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-02",
+   "season": 2026,
+   "game": 981,
+   "barrelPct": 12.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-03",
+   "season": 2026,
+   "game": 982,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-04",
+   "season": 2026,
+   "game": 983,
+   "barrelPct": 12.4,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-05",
+   "season": 2026,
+   "game": 984,
+   "barrelPct": 11.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-06",
+   "season": 2026,
+   "game": 985,
+   "barrelPct": 11.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-08",
+   "season": 2026,
+   "game": 986,
+   "barrelPct": 9.7,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-09",
+   "season": 2026,
+   "game": 987,
+   "barrelPct": 8.4,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-10",
+   "season": 2026,
+   "game": 988,
+   "barrelPct": 7.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-11",
+   "season": 2026,
+   "game": 989,
+   "barrelPct": 7.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-12",
+   "season": 2026,
+   "game": 990,
+   "barrelPct": 7.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-13",
+   "season": 2026,
+   "game": 991,
+   "barrelPct": 5.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-15",
+   "season": 2026,
+   "game": 992,
+   "barrelPct": 5.3,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-16",
+   "season": 2026,
+   "game": 993,
+   "barrelPct": 5.2,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-17",
+   "season": 2026,
+   "game": 994,
+   "barrelPct": 4.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-18",
+   "season": 2026,
+   "game": 995,
+   "barrelPct": 4.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-19",
+   "season": 2026,
+   "game": 996,
+   "barrelPct": 4.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-20",
+   "season": 2026,
+   "game": 997,
+   "barrelPct": 4.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-21",
+   "season": 2026,
+   "game": 998,
+   "barrelPct": 4.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-22",
+   "season": 2026,
+   "game": 999,
+   "barrelPct": 4.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-05-23",
+   "season": 2026,
+   "game": 1000,
+   "barrelPct": 3.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-27",
+   "season": 2026,
+   "game": 1001,
+   "barrelPct": 3.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-28",
+   "season": 2026,
+   "game": 1002,
+   "barrelPct": 3.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-29",
+   "season": 2026,
+   "game": 1003,
+   "barrelPct": 3.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-30",
+   "season": 2026,
+   "game": 1004,
+   "barrelPct": 3.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-05-31",
+   "season": 2026,
+   "game": 1005,
+   "barrelPct": 1.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-02",
+   "season": 2026,
+   "game": 1006,
+   "barrelPct": 1.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-03",
+   "season": 2026,
+   "game": 1007,
+   "barrelPct": 1.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-04",
+   "season": 2026,
+   "game": 1008,
+   "barrelPct": 1.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-05",
+   "season": 2026,
+   "game": 1009,
+   "barrelPct": 1.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-06",
+   "season": 2026,
+   "game": 1010,
+   "barrelPct": 1.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-07",
+   "season": 2026,
+   "game": 1011,
+   "barrelPct": 2.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-08",
+   "season": 2026,
+   "game": 1012,
+   "barrelPct": 2.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-09",
+   "season": 2026,
+   "game": 1013,
+   "barrelPct": 2.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-10",
+   "season": 2026,
+   "game": 1014,
+   "barrelPct": 1.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-12",
+   "season": 2026,
+   "game": 1015,
+   "barrelPct": 1.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-16",
+   "season": 2026,
+   "game": 1016,
+   "barrelPct": 1.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-17",
+   "season": 2026,
+   "game": 1017,
+   "barrelPct": 1.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-18",
+   "season": 2026,
+   "game": 1018,
+   "barrelPct": 2.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-06-19",
+   "season": 2026,
+   "game": 1019,
+   "barrelPct": 2.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-06-20",
+   "season": 2026,
+   "game": 1020,
+   "barrelPct": 3.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-06-22",
+   "season": 2026,
+   "game": 1021,
+   "barrelPct": 3.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-06-23",
+   "season": 2026,
+   "game": 1022,
+   "barrelPct": 4.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-06-24",
+   "season": 2026,
+   "game": 1023,
+   "barrelPct": 4.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-06-25",
+   "season": 2026,
+   "game": 1024,
+   "barrelPct": 4.8,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-26",
+   "season": 2026,
+   "game": 1025,
+   "barrelPct": 4.8,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-27",
+   "season": 2026,
+   "game": 1026,
+   "barrelPct": 4.7,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-28",
+   "season": 2026,
+   "game": 1027,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-06-29",
+   "season": 2026,
+   "game": 1028,
+   "barrelPct": 5.6,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-07-01",
+   "season": 2026,
+   "game": 1029,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-07-03",
+   "season": 2026,
+   "game": 1030,
+   "barrelPct": 5.8,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-07-04",
+   "season": 2026,
+   "game": 1031,
+   "barrelPct": 5.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-07-05",
+   "season": 2026,
+   "game": 1032,
+   "barrelPct": 6.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-07-06",
+   "season": 2026,
+   "game": 1033,
+   "barrelPct": 6.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-07-07",
+   "season": 2026,
+   "game": 1034,
+   "barrelPct": 6.1,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-07-08",
+   "season": 2026,
+   "game": 1035,
+   "barrelPct": 7.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-07-10",
+   "season": 2026,
+   "game": 1036,
+   "barrelPct": 7.2,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-07-11",
+   "season": 2026,
+   "game": 1037,
+   "barrelPct": 7.3,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-12",
+   "season": 2026,
+   "game": 1038,
+   "barrelPct": 7.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-17",
+   "season": 2026,
+   "game": 1039,
+   "barrelPct": 7.6,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-18",
+   "season": 2026,
+   "game": 1040,
+   "barrelPct": 8.6,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-19",
+   "season": 2026,
+   "game": 1041,
+   "barrelPct": 7.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-20",
+   "season": 2026,
+   "game": 1042,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-21",
+   "season": 2026,
+   "game": 1043,
+   "barrelPct": 7.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-22",
+   "season": 2026,
+   "game": 1044,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-23",
+   "season": 2026,
+   "game": 1045,
+   "barrelPct": 8.6,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-24",
+   "season": 2026,
+   "game": 1046,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-25",
+   "season": 2026,
+   "game": 1047,
+   "barrelPct": 8.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-07-26",
+   "season": 2026,
+   "game": 1048,
+   "barrelPct": 7.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-07-27",
+   "season": 2026,
+   "game": 1049,
+   "barrelPct": 7.5,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-07-28",
+   "season": 2026,
+   "game": 1050,
+   "barrelPct": 6.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-07-31",
+   "season": 2026,
+   "game": 1051,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-08-01",
+   "season": 2026,
+   "game": 1052,
+   "barrelPct": 6.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-08-02",
+   "season": 2026,
+   "game": 1053,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-08-03",
+   "season": 2026,
+   "game": 1054,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-08-04",
+   "season": 2026,
+   "game": 1055,
+   "barrelPct": 6.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-08-08",
+   "season": 2026,
+   "game": 1056,
+   "barrelPct": 8.0,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-09",
+   "season": 2026,
+   "game": 1057,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-10",
+   "season": 2026,
+   "game": 1058,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-11",
+   "season": 2026,
+   "game": 1059,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-12",
+   "season": 2026,
+   "game": 1060,
+   "barrelPct": 7.5,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-13",
+   "season": 2026,
+   "game": 1061,
+   "barrelPct": 7.4,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-14",
+   "season": 2026,
+   "game": 1062,
+   "barrelPct": 6.2,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-22",
+   "season": 2026,
+   "game": 1063,
+   "barrelPct": 6.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-23",
+   "season": 2026,
+   "game": 1064,
+   "barrelPct": 7.1,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-08-25",
+   "season": 2026,
+   "game": 1065,
+   "barrelPct": 6.1,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-08-26",
+   "season": 2026,
+   "game": 1066,
+   "barrelPct": 6.0,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-08-27",
+   "season": 2026,
+   "game": 1067,
+   "barrelPct": 6.0,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-08-28",
+   "season": 2026,
+   "game": 1068,
+   "barrelPct": 5.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-08-29",
+   "season": 2026,
+   "game": 1069,
+   "barrelPct": 5.9,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-08-30",
+   "season": 2026,
+   "game": 1070,
+   "barrelPct": 4.8,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-09-01",
+   "season": 2026,
+   "game": 1071,
+   "barrelPct": 4.8,
+   "hrPerGame": 0.033
+  },
+  {
+   "date": "2026-09-02",
+   "season": 2026,
+   "game": 1072,
+   "barrelPct": 6.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-03",
+   "season": 2026,
+   "game": 1073,
+   "barrelPct": 6.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-04",
+   "season": 2026,
+   "game": 1074,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-05",
+   "season": 2026,
+   "game": 1075,
+   "barrelPct": 5.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-06",
+   "season": 2026,
+   "game": 1076,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-07",
+   "season": 2026,
+   "game": 1077,
+   "barrelPct": 5.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-08",
+   "season": 2026,
+   "game": 1078,
+   "barrelPct": 6.6,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-09",
+   "season": 2026,
+   "game": 1079,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-11",
+   "season": 2026,
+   "game": 1080,
+   "barrelPct": 6.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-12",
+   "season": 2026,
+   "game": 1081,
+   "barrelPct": 5.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-13",
+   "season": 2026,
+   "game": 1082,
+   "barrelPct": 6.9,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-09-14",
+   "season": 2026,
+   "game": 1083,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-09-15",
+   "season": 2026,
+   "game": 1084,
+   "barrelPct": 8.6,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-09-16",
+   "season": 2026,
+   "game": 1085,
+   "barrelPct": 8.6,
+   "hrPerGame": 0.1
+  },
+  {
+   "date": "2026-09-18",
+   "season": 2026,
+   "game": 1086,
+   "barrelPct": 7.7,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-19",
+   "season": 2026,
+   "game": 1087,
+   "barrelPct": 7.8,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-20",
+   "season": 2026,
+   "game": 1088,
+   "barrelPct": 7.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-23",
+   "season": 2026,
+   "game": 1089,
+   "barrelPct": 6.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-25",
+   "season": 2026,
+   "game": 1090,
+   "barrelPct": 6.9,
+   "hrPerGame": 0.067
+  },
+  {
+   "date": "2026-09-26",
+   "season": 2026,
+   "game": 1091,
+   "barrelPct": 7.0,
+   "hrPerGame": 0.067
+  }
+ ],
+ "boxes": {
+  "old": [
+   1.65,
+   3.68
+  ],
+  "abs": [
+   1.62,
+   3.21
+  ],
+  "halfPlate": 0.83
+ }
+}

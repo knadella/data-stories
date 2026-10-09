@@ -7,7 +7,7 @@ Two pairs, each synced at the moment of contact:
   2025-09-03 home run on a sinker at 2.83 ft    vs  2026-09-25 ground out on a cutter at 3.13 ft
 
 Writes public/media/vlad-same-pitch.gif, .mp4 and a poster .jpg.
-Usage: python3 scripts/jays-run-differential/build_gif.py
+Usage: python3 scripts/vladimir-guerrero-jr/build_gif.py
 """
 import shutil
 import subprocess

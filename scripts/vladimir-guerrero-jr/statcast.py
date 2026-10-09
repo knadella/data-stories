@@ -1,9 +1,9 @@
 """
-Statcast pulls for the 2026 Blue Jays story: Vladimir Guerrero Jr.'s pitch-level
-data (2024-2026), every ball in play at Rogers Centre (2024-2026), and the team's
-hitter lines. Writes the JSON the story charts read into public/data/.
+Statcast pulls for the Vladimir Guerrero Jr. story: his pitch-level data for every
+season since his 2019 debut, and every ball in play at Rogers Centre (2024-2026) for
+the park check. Writes the JSON the story charts read into public/data/.
 
-Usage: python3 scripts/jays-run-differential/statcast.py
+Usage: python3 scripts/vladimir-guerrero-jr/statcast.py
 Raw CSVs are cached in scripts/output/ (ignored by git).
 """
 import json
@@ -20,7 +20,7 @@ OUT = ROOT / "public" / "data"
 VLAD = 665489
 ROGERS = 14
 TEAM = 141
-SEASONS = [2024, 2025, 2026]
+SEASONS = [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
 SWING = {"foul", "hit_into_play", "swinging_strike", "foul_tip", "swinging_strike_blocked", "foul_bunt", "missed_bunt", "bunt_foul_tip"}
 
 try:
@@ -97,8 +97,8 @@ def vlad_summary(d: pd.DataFrame) -> dict:
         "homeRuns": int((bip["events"] == "home_run").sum()),
         "strikeoutPct": round(float((d["events"].isin(["strikeout", "strikeout_double_play"])).sum() / pa * 100), 1),
         "walkPct": round(float((d["events"] == "walk").sum() / pa * 100), 1),
-        "batSpeed": round(float(comp["bat_speed"].mean()), 1),
-        "swingLength": round(float(comp["swing_length"].mean()), 2),
+        "batSpeed": round(float(comp["bat_speed"].mean()), 1) if len(comp) else None,
+        "swingLength": round(float(comp["swing_length"].mean()), 2) if len(comp) else None,
         "attackAngle": round(float(comp["attack_angle"].mean()), 1) if comp["attack_angle"].notna().any() else None,
         "exitVelo": round(float(bip["launch_speed"].mean()), 1),
         "hardHitPct": round(float((bip["launch_speed"] >= 95).mean() * 100), 1),
@@ -132,6 +132,68 @@ def vlad_summary(d: pd.DataFrame) -> dict:
     }
 
 
+def career_season(d: pd.DataFrame, season: int) -> dict:
+    """Definition-free season metrics for the career arc. Zone boxes are fixed across years."""
+    bip = d[d["in_play"] & d["launch_speed"].notna()]
+    flies = bip[bip["bb_type"] == "fly_ball"]
+    hard = bip[bip["launch_speed"] >= 95]
+    comp = d[d["swing"] & d["bat_speed"].notna()]
+    old_in = over_plate(d) & d["plate_z"].between(*OLD_BOX)
+    first = d[(d["balls"] == 0) & (d["strikes"] == 0)]
+    pa = int(d["woba_denom"].notna().sum())
+    upper = bip[over_plate(bip) & bip["plate_z"].between(2.5, 3.5)]
+    lower = bip[over_plate(bip) & bip["plate_z"].between(1.6, 2.5)]
+    ang = np.degrees(np.arctan2(hard["hc_x"] - 125.42, 198.27 - hard["hc_y"]))
+    return {
+        "season": season,
+        "pa": pa,
+        "bip": int(len(bip)),
+        "homeRuns": int((bip["events"] == "home_run").sum()),
+        "exitVelo": round(float(bip["launch_speed"].mean()), 1),
+        "maxExitVelo": round(float(bip["launch_speed"].max()), 1),
+        "hardHitPct": round(float((bip["launch_speed"] >= 95).mean() * 100), 1),
+        "barrelPct": round(float((bip["launch_speed_angle"] == 6).mean() * 100), 1),
+        "hrPerFlyBall": round(float((flies["events"] == "home_run").mean() * 100), 1) if len(flies) else None,
+        "flyBallDistance": round(float(flies["hit_distance_sc"].mean()), 0) if len(flies) else None,
+        "launchAngle": round(float(bip["launch_angle"].mean()), 1),
+        "hardHitLaunchAngle": round(float(hard["launch_angle"].mean()), 1),
+        "hardHitInWindow": round(float(hard["launch_angle"].between(8, 32).mean() * 100), 1),
+        "hardHitPulled": round(float((ang < -15).mean() * 100), 1),
+        "hardHitOnGround": round(float((hard["launch_angle"] < 8).mean() * 100), 1),
+        "qualityAirPct": round(float(((bip["launch_speed"] >= 95) & bip["launch_angle"].between(8, 32)).mean() * 100), 1),
+        "flyBallExitVelo": round(float(flies["launch_speed"].mean()), 1) if len(flies) else None,
+        "groundBallPct": round(float((bip["bb_type"] == "ground_ball").mean() * 100), 1),
+        "popupPct": round(float((bip["bb_type"] == "popup").mean() * 100), 1),
+        "xwoba": round(float(d["estimated_woba_using_speedangle"].mean()), 3),
+        "chaseOldBox": round(float(d.loc[~old_in, "swing"].mean() * 100), 1),
+        "zoneSwingOldBox": round(float(d.loc[old_in, "swing"].mean() * 100), 1),
+        "firstPitchSwingPct": round(float(first["swing"].mean() * 100), 1),
+        "batSpeed": round(float(comp["bat_speed"].mean()), 1) if len(comp) else None,
+        "upperHalf": contact(upper),
+        "lowerHalf": contact(lower),
+    }
+
+
+def career_rolling(frames: dict, window: int = 30) -> list[dict]:
+    """Rolling barrel rate and home runs per game across every game of the career, in order."""
+    games = []
+    for season, d in sorted(frames.items()):
+        bip = d[d["in_play"] & d["launch_speed"].notna()]
+        g = bip.groupby("game_date").agg(bip=("launch_speed", "size"), barrels=("launch_speed_angle", lambda s: int((s == 6).sum())), hr=("events", lambda s: int((s == "home_run").sum())))
+        for date, r in g.sort_index().iterrows():
+            games.append({"date": date, "season": season, "bip": int(r.bip), "barrels": int(r.barrels), "hr": int(r.hr)})
+    out = []
+    for i in range(len(games)):
+        w = games[max(0, i - window + 1): i + 1]
+        bip = sum(x["bip"] for x in w)
+        out.append({
+            "date": games[i]["date"], "season": games[i]["season"], "game": i + 1,
+            "barrelPct": round(sum(x["barrels"] for x in w) / bip * 100, 1) if bip else None,
+            "hrPerGame": round(sum(x["hr"] for x in w) / len(w), 3),
+        })
+    return out
+
+
 def vlad_swings(d: pd.DataFrame) -> list[dict]:
     s = d[d["swing"] & d["plate_x"].notna()]
     return [
@@ -160,25 +222,15 @@ def rogers(season: int) -> dict:
     }
 
 
-def hitters(season: int) -> list[dict]:
-    url = (
-        f"https://statsapi.mlb.com/api/v1/teams/{TEAM}/roster?season={season}&rosterType=fullSeason"
-        f"&hydrate=person(stats(type=season,season={season},group=hitting,gameType=R))"
-    )
-    data = json.loads(get(url, RAW / f"roster_{season}.json").read_text())
-    rows = []
-    for p in data["roster"]:
-        if p["position"]["abbreviation"] == "P":
-            continue
-        for st in p["person"].get("stats", []):
-            for sp in st.get("splits", []):
-                if sp.get("team", {}).get("id") != TEAM:
-                    continue
-                s = sp["stat"]
-                if s.get("plateAppearances", 0) >= 300:
-                    rows.append({"name": p["person"]["fullName"], "pa": s["plateAppearances"], "hr": s["homeRuns"], "ops": float(s["ops"]), "obp": float(s["obp"]), "slg": float(s["slg"])})
-    rows.sort(key=lambda r: -r["ops"])
-    return rows
+def clean(obj):
+    """Replace NaN with None so the JSON is valid."""
+    if isinstance(obj, dict):
+        return {k: clean(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [clean(v) for v in obj]
+    if isinstance(obj, float) and obj != obj:
+        return None
+    return obj
 
 
 def main() -> None:
@@ -187,17 +239,16 @@ def main() -> None:
     vlad = {s: prep(savant(s, f"&batters_lookup%5B%5D={VLAD}", "vlad")) for s in SEASONS}
     summary = {str(s): vlad_summary(d) for s, d in vlad.items()}
     summary["boxes"] = {"old": OLD_BOX, "abs": ABS_BOX, "halfPlate": HALF_PLATE}
-    (OUT / "vlad-summary.json").write_text(json.dumps(summary, indent=1))
+    (OUT / "vlad-summary.json").write_text(json.dumps(clean(summary), indent=1))
+    seasons = [career_season(vlad[y], y) for y in SEASONS]
+    (OUT / "vlad-career.json").write_text(json.dumps(clean({"seasons": seasons, "rolling": career_rolling(vlad), "boxes": summary["boxes"]}), indent=1))
     (OUT / "vlad-swings.json").write_text(json.dumps({str(s): vlad_swings(vlad[s]) for s in (2025, 2026)}))
-    (OUT / "rogers-centre.json").write_text(json.dumps([rogers(s) for s in SEASONS], indent=1))
-    (OUT / "jays-hitters.json").write_text(json.dumps({str(s): hitters(s) for s in (2025, 2026)}, indent=1))
+    (OUT / "rogers-centre.json").write_text(json.dumps([rogers(s) for s in (2024, 2025, 2026)], indent=1))
     for s in SEASONS:
         v = summary[str(s)]
         print(f"{s}: HR {v['homeRuns']} K% {v['strikeoutPct']} bat speed {v['batSpeed']} barrel% {v['barrelPct']} | chase old box {v['chaseOldBox']} own zone {v['chaseOwnZone']} | upper half {v['upperHalf']} | hard-hit LA {v['hardHit']['launchAngle']} window {v['hardHit']['shareInWindow']}%")
     for r in json.loads((OUT / "rogers-centre.json").read_text()):
         print("Rogers", r)
-    for s in (2025, 2026):
-        print(s, [(h["name"], h["ops"]) for h in json.loads((OUT / "jays-hitters.json").read_text())[str(s)][:6]])
 
 
 if __name__ == "__main__":
