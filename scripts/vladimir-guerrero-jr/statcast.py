@@ -125,6 +125,8 @@ def vlad_summary(d: pd.DataFrame) -> dict:
                 "barrelPct": round(float((g[g["in_play"]]["launch_speed_angle"] == 6).mean() * 100), 1),
                 "homeRuns": int((g["events"] == "home_run").sum()),
                 "xwoba": round(float(g["estimated_woba_using_speedangle"].mean()), 3),
+                "contactDepth": round(float(g.loc[g["in_play"], "intercept_ball_minus_batter_pos_y_inches"].mean()), 1) if "intercept_ball_minus_batter_pos_y_inches" in g and g.loc[g["in_play"], "intercept_ball_minus_batter_pos_y_inches"].notna().any() else None,
+                "hardHitLaunchAngle": round(float(g.loc[g["in_play"] & (g["launch_speed"] >= 95), "launch_angle"].mean()), 1),
             }
             for m, g in d.groupby("month")
             if m >= 4
@@ -242,6 +244,27 @@ def rogers(season: int) -> dict:
     }
 
 
+YELICH = 592885  # Christian Yelich, the closest historical parallel (back trouble, power loss, recovery after surgery)
+YELICH_EVENTS = [
+    {"season": 2019, "label": "Kneecap fractured, Sep 10"},
+    {"season": 2021, "label": "Back, injured list Apr to May"},
+    {"season": 2024, "label": "Back surgery, Aug 16"},
+]
+VLAD_EVENTS = [
+    {"season": 2026, "label": "Back tightness from June, MRI shows inflammation"},
+]
+
+
+def parallels() -> dict:
+    seasons = []
+    for y in range(2016, 2027):
+        d = prep(savant(y, f"&batters_lookup%5B%5D={YELICH}", "yelich"))
+        r = career_season(d, y)
+        r.pop("upperHalf", None); r.pop("lowerHalf", None); r.pop("hardHitPulled", None)  # zone boxes and pull side are Guerrero's
+        seasons.append(r)
+    return {"yelich": {"name": "Christian Yelich", "seasons": seasons, "events": YELICH_EVENTS}, "guerrero": {"events": VLAD_EVENTS}}
+
+
 def clean(obj):
     """Replace NaN with None so the JSON is valid."""
     if isinstance(obj, dict):
@@ -263,6 +286,7 @@ def main() -> None:
     seasons = [career_season(vlad[y], y) for y in SEASONS]
     plates = {"career": zone_grid([vlad[y] for y in SEASONS if y < 2026]), "2026": zone_grid([vlad[2026]])}
     (OUT / "vlad-career.json").write_text(json.dumps(clean({"seasons": seasons, "rolling": career_rolling(vlad), "boxes": summary["boxes"], "plates": plates}), indent=1))
+    (OUT / "vlad-parallels.json").write_text(json.dumps(clean(parallels()), indent=1))
     (OUT / "vlad-swings.json").write_text(json.dumps({str(s): vlad_swings(vlad[s]) for s in (2025, 2026)}))
     (OUT / "rogers-centre.json").write_text(json.dumps([rogers(s) for s in (2024, 2025, 2026)], indent=1))
     for s in SEASONS:

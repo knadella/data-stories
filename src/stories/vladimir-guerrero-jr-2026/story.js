@@ -5,7 +5,7 @@ import { dataUrl, mediaUrl, videoFigure } from "../../lib/media.js";
 /**
  * Vladimir Guerrero Jr.: the career arc, and where 2026 is an anomaly.
  * Data: public/data/vlad-career.json, vlad-summary.json, vlad-swings.json,
- * vlad-clips.json, produced by scripts/vladimir-guerrero-jr/statcast.py from
+ * vlad-clips.json, vlad-parallels.json, produced by scripts/vladimir-guerrero-jr/statcast.py from
  * Baseball Savant and the MLB Stats API.
  */
 
@@ -18,7 +18,7 @@ const SEASONS = [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
 const steps = [
   {
     id: "arc",
-    html: `<p>Vladimir Guerrero Jr. reached the majors at 20, hit 48 home runs at 22 and finished second in the MVP vote, then settled into a run of 26, 30 and 23. In October 2025 he was the ALCS MVP, six months after signing a 14-year, $500 million extension.</p><p>In 2026 he hit nine. This story is about where those home runs went, measured against the only baseline that matters for him, which is himself.</p>`,
+    html: `<p>Vladimir Guerrero Jr. reached the majors at 20, hit 48 home runs at 22 and finished second in the MVP vote, then settled into a run of 26, 30 and 23. In October 2025 he was the ALCS MVP, six months after signing a 14-year, $500 million extension.</p><p>In 2026 he hit nine. This story is about where those home runs went, measured against the only baseline that matters for him, which is himself, and about what has to happen for them to come back.</p>`,
   },
   {
     id: "cold",
@@ -26,37 +26,34 @@ const steps = [
   },
   {
     id: "anomaly",
-    html: `<p>To see what actually changed, score each 2026 number against his own 2019 to 2025 seasons. The dots show how many standard deviations each one sits from his career average, with the shaded band marking the range of ordinary year-to-year variation.</p><p>The approach is normal Vladdy. His chase rate, measured against a fixed strike zone, is at his career average. His first-pitch swing rate is below it. His pull rate, ground ball rate and swing rate in the zone are all within range. The extreme values are all on the output side: how far his fly balls carried and how often they left the park.</p>`,
-  },
-  {
-    id: "upper",
-    html: `<p>The power left from one place. As a rookie he hit almost everything out of the lower half of the zone: one home run from the upper half in 2019, two in 2020. Then he lost 42 pounds over the winter of 2020 and the top of the zone opened up. From 2021 to 2025 he hit between 12 and 30 home runs a year from pitches above the midpoint of the zone.</p><p>In 2026 he put 168 balls in play from that zone and hit zero home runs. The lower half held up almost unchanged. His profile reverted to his 20-year-old self.</p>`,
-  },
-  {
-    id: "plates",
-    html: `<p>Here is the same thing as a catcher sees it. Each plate splits the strike zone into nine cells, and the number is home runs per 100 balls in play from that cell. He bats right-handed, so the inside edge is on the left.</p><p>From 2019 to 2025 the top row and the heart of the plate were his power zones: 8.7 per 100 from the top middle, 10.6 from the middle of the plate. In 2026 the top row and the middle of the plate produced zero home runs on 183 balls in play. The six he hit from inside the zone all came from the lower two rows.</p>`,
-  },
-  {
-    id: "quality",
-    html: `<p>The cleanest single measure of a power hitter is how often a ball in play is both hard hit and in the air at a home run angle. For Guerrero that share was 14 percent as a rookie, 25 percent in his 48-homer year, and between 20 and 25 percent every year since.</p><p>In 2026 it was 15 percent, back to the rookie level. That is the anomaly in one number: the same number of balls in play, a third fewer of them struck well in the air.</p>`,
-  },
-  {
-    id: "angle",
-    html: `<p>Where did the well-struck balls go? Into the ground. On balls hit 95 miles an hour or harder, his launch angle averaged 4.7 degrees in 2026, the lowest of his career, and 59 percent of them were on the ground, the highest.</p><p>His bat speed was 74.8 miles an hour, within half a mile an hour of the three seasons Statcast has tracked it. The bat is as fast as ever. It is arriving a fraction late, or a fraction high, on the pitches he used to lift.</p>`,
-  },
-  {
-    id: "fly",
-    html: `<p>The fly balls he did hit were the mishits. His average fly ball travelled 295 feet in 2026 against a career norm of about 324, more than four standard deviations below his own baseline and the most anomalous number of the season. Fly balls left his bat at 89 miles an hour, five slower than the year before.</p><p>The Rogers Centre is not the reason. Well-struck fly balls by every hitter carried the same distance there in 2026 as in 2025, and left the park more often.</p>`,
+    html: `<p>To see what actually changed, score each 2026 number against his own 2019 to 2025 seasons. The dots show how many standard deviations each one sits from his career average, with the shaded band marking ordinary year-to-year variation.</p><p>The approach is normal Vladdy. His chase rate, measured against a fixed strike zone, is at his career average, and his first-pitch swing rate is below it. The extreme values are all output. His fly balls carried 295 feet against a norm of 324, and 5.6 percent of them left the park against a norm of 20.</p>`,
   },
   {
     id: "zone",
     html: `<p>One thing the discourse got wrong. The widely quoted number is that his out-of-zone swing rate jumped about nine points, which reads as a hitter who lost his discipline.</p><p>In 2026 MLB introduced the ABS challenge zone, set at 53.5 percent of a batter's height. For a listed six-footer that moved the top of his measured zone from 3.68 feet to 3.21 feet. The dots are every swing he took in 2026. The shaded strip holds 89 swings that were strikes in 2025's data and chases in 2026's. Against a fixed box, his chase rate rose from 23 to 28 percent, which is his career average.</p>`,
   },
   {
-    id: "months",
-    html: `<p>April looked like the player of the previous five seasons. His barrel rate that month was 14.5 percent. It fell to 1.1 percent in May and never got back above 10.</p><p>In 2023, the comparison year, the slump came in late summer and the recovery came in September. In 2026 he was named an All-Star on July 4 but sat out with lower back discomfort, and the recovery never came. His bat speed was flat every month, which argues against a simple physical decline and leaves timing and health as the open questions for 2027.</p>`,
+    id: "upper",
+    html: `<p>The power left from one place. As a rookie he hit almost everything out of the lower half of the zone: one home run from the upper half in 2019, two in 2020. Then he lost 42 pounds over the winter of 2020 and the top of the zone opened up. From 2021 to 2025 he hit between 12 and 30 home runs a year from pitches above the midpoint of the zone.</p><p>In 2026 he put 168 balls in play from that zone and hit zero home runs. The lower half held up almost unchanged.</p>`,
+  },
+  {
+    id: "plates",
+    html: `<p>Here is the same thing as a catcher sees it. Each plate splits the strike zone into nine cells, and the number is home runs per 100 balls in play from that cell. He bats right-handed, so the inside edge is on the left.</p><p>From 2019 to 2025 the top row and the heart of the plate were his power zones: 8.7 per 100 from the top middle, 10.6 from the middle of the plate. In 2026 the top row and the middle of the plate produced zero home runs on 183 balls in play. The six he hit from inside the zone all came from the lower two rows.</p>`,
+  },
+  {
+    id: "angle",
+    html: `<p>He was still hitting the ball hard. What changed was the angle it left the bat. On balls hit 95 miles an hour or harder, his launch angle averaged 4.7 degrees in 2026, the lowest of his career, and 59 percent of them were on the ground, the highest.</p><p>His bat speed was 74.8 miles an hour, within half a mile an hour of the three seasons Statcast has tracked it. The bat is as fast as ever. It is arriving a fraction late on the pitches he used to lift. That is a timing problem, and the next chart says when it started and why it may not have been fixable.</p>`,
+  },
+  {
+    id: "timing",
+    html: `<p>Statcast measures how deep in the zone the bat meets the ball. In April 2026 he was catching it 33.8 inches in front of his body and lifting hard contact at 6 degrees, close to his 2025 self. In May the contact point moved two inches deeper and the angle on hard contact fell to under one degree. The two numbers track each other every month, in 2025 as well.</p><p>On June 30 he was pulled with lower back tightness. On July 4 he sat out the All-Star Game with it. An August MRI showed inflammation that had reportedly been there all season, and on September 20 he left a game with it again. His manager said the discomfort shows up when he lands and rotates, which is exactly the part of the swing that gets the barrel to a high pitch on time. A sore back does not slow the bat. It makes it late.</p>`,
+  },
+  {
+    id: "yelich",
+    html: `<p>Christian Yelich is the closest parallel. In his MVP seasons 42 and 37 percent of his fly balls left the park. A fractured kneecap ended his 2019, and a lingering back problem put him on the injured list in the spring of 2021. That year 16 percent of his fly balls left and he hit nine home runs, with his exit velocity nearly intact. He played through the back for three seasons and never got above 27 percent.</p><p>Surgery in August 2024 ended that season. In 2025, 41 percent of his fly balls left the park and he hit 29 home runs, his MVP-year rate, at 33. Both paths are on the chart. Playing through a back problem cost Yelich three seasons of power. Fixing it brought the power back within a year.</p>`,
   },
 ];
+
 
 const fmtMonth = (m) => ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"][m - 1];
 
@@ -232,13 +229,6 @@ function graphic(el, data) {
     g.update = () => {};
   }
 
-  // ---------- View 5: quality air contact share ----------
-  {
-    const g = view("quality");
-    seasonBars(g, (s) => s.qualityAirPct, { domain: [0, 30], format: (d) => `${d3.format(".0f")(d)}%`, note: "Share of balls in play hit 95+ mph at 8° to 32°" });
-    g.update = () => {};
-  }
-
   // ---------- View 6: hard-hit launch angle density, 2025 vs 2026 ----------
   {
     const g = view("angle");
@@ -256,16 +246,6 @@ function graphic(el, data) {
     g.append("path").datum(dens[2026]).attr("d", area).attr("fill", ACCENT).attr("opacity", 0.35);
     g.append("text").attr("class", "label").attr("x", x(v[2025].hardHit.launchAngle)).attr("y", innerH - 60).attr("text-anchor", "middle").text(`2025 avg ${v[2025].hardHit.launchAngle}°`);
     g.append("text").attr("class", "label is-accent").attr("x", x(v[2026].hardHit.launchAngle)).attr("y", innerH - 40).attr("text-anchor", "middle").text(`2026 avg ${v[2026].hardHit.launchAngle}°`);
-    g.update = () => {};
-  }
-
-  // ---------- View 7: fly ball distance by season ----------
-  {
-    const g = view("fly");
-    const y = seasonBars(g, (s) => s.flyBallDistance, { domain: [250, 350], format: (d) => `${d} ft`, note: "Average fly ball distance" });
-    const mean = d3.mean(seasons.filter((s) => s.season < 2026), (s) => s.flyBallDistance);
-    g.append("line").attr("x1", 0).attr("x2", innerW).attr("y1", y(mean)).attr("y2", y(mean)).attr("stroke", INK2).attr("stroke-dasharray", "4 4");
-    g.append("text").attr("class", "label").attr("x", innerW).attr("y", y(mean) - 6).attr("text-anchor", "end").text(`2019 to 2025 average, ${Math.round(mean)} ft`);
     g.update = () => {};
   }
 
@@ -291,25 +271,77 @@ function graphic(el, data) {
     g.update = () => {};
   }
 
-  // ---------- View 9: monthly barrel rate, 2026 against 2023 ----------
+  // ---------- View: timing by month, with the back timeline ----------
   {
-    const g = view("months");
+    const g = view("timing");
     const v = data.summary;
-    const x = d3.scalePoint().domain([4, 5, 6, 7, 8, 9]).range([0, innerW]).padding(0.5);
-    const y = d3.scaleLinear().domain([0, 20]).range([innerH, 0]);
-    g.append("g").attr("class", "grid").call(d3.axisLeft(y).ticks(4).tickSize(-innerW).tickFormat(""));
-    g.append("g").attr("class", "axis").attr("transform", `translate(0,${innerH})`).call(d3.axisBottom(x).tickFormat(fmtMonth));
-    g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(4).tickFormat((d) => `${d}%`));
-    g.append("text").attr("class", "label").attr("x", 0).attr("y", -8).text("Barrel rate by month");
-    const line = d3.line().x((d) => x(d.month)).y((d) => y(d.barrelPct));
-    for (const s of [2023, 2026]) {
-      const m = v[s].monthly.filter((d) => d.month >= 4 && d.month <= 9);
-      g.append("path").datum(m).attr("class", `series ${s === 2026 ? "is-accent" : ""}`).attr("d", line);
-      g.selectAll(`circle.m${s}`).data(m).join("circle").attr("class", `m${s}`).attr("cx", (d) => x(d.month)).attr("cy", (d) => y(d.barrelPct)).attr("r", 4).attr("fill", s === 2026 ? ACCENT : INK2);
-      g.append("text").attr("class", `label ${s === 2026 ? "is-accent" : ""}`).attr("x", x(9) + 10).attr("y", y(m.at(-1).barrelPct)).attr("dy", "0.35em").text(String(s));
+    const months = [4, 5, 6, 7, 8, 9];
+    const x = d3.scalePoint().domain(months).range([0, innerW]).padding(0.5);
+    const panelH = (innerH - 36) / 2;
+    const panels = [
+      { key: "hardHitLaunchAngle", y0: 0, domain: [-2, 12], title: "Launch angle on hard contact", fmt: (d) => `${d}°` },
+      { key: "contactDepth", y0: panelH + 36, domain: [29, 36], title: "Contact point, inches in front of the body", fmt: (d) => `${d}"` },
+    ];
+    for (const p of panels) {
+      const pg = g.append("g").attr("transform", `translate(0,${p.y0})`);
+      const y = d3.scaleLinear().domain(p.domain).range([panelH, 0]);
+      pg.append("g").attr("class", "grid").call(d3.axisLeft(y).ticks(4).tickSize(-innerW).tickFormat(""));
+      pg.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(4).tickFormat(p.fmt));
+      pg.append("text").attr("class", "label").attr("x", 0).attr("y", -6).text(p.title);
+      const line = d3.line().x((d) => x(d.month)).y((d) => y(d[p.key])).defined((d) => d[p.key] != null);
+      for (const season of [2025, 2026]) {
+        const m = v[season].monthly.filter((d) => months.includes(d.month));
+        pg.append("path").datum(m).attr("class", `series ${season === 2026 ? "is-accent" : ""}`).attr("d", line);
+        pg.selectAll(`circle.s${season}`).data(m.filter((d) => d[p.key] != null)).join("circle").attr("cx", (d) => x(d.month)).attr("cy", (d) => y(d[p.key])).attr("r", 4).attr("fill", season === 2026 ? ACCENT : INK2);
+        const last = m.filter((d) => d[p.key] != null).at(-1);
+        pg.append("text").attr("class", `label ${season === 2026 ? "is-accent" : ""}`).attr("x", x(9) + 10).attr("y", y(last[p.key])).attr("dy", "0.35em").text(String(season));
+      }
     }
-    const apr = v[2026].monthly.find((d) => d.month === 4);
-    g.append("text").attr("class", "label is-accent").attr("x", x(4)).attr("y", y(apr.barrelPct) - 12).attr("text-anchor", "middle").text(`April ${apr.barrelPct}%`);
+    g.append("g").attr("class", "axis").attr("transform", `translate(0,${innerH})`).call(d3.axisBottom(x).tickFormat(fmtMonth));
+    const events = [
+      { at: 6.97, label: "Pulled, back tightness" },
+      { at: 7.1, label: "Sits out All-Star Game" },
+      { at: 8.5, label: "MRI: inflammation" },
+      { at: 9.65, label: "Removed, back" },
+    ];
+    const xm = (at) => x(Math.floor(at)) + (at - Math.floor(at)) * (x(5) - x(4));
+    events.forEach((e, i) => {
+      g.append("line").attr("x1", xm(e.at)).attr("x2", xm(e.at)).attr("y1", 0).attr("y2", innerH).attr("stroke", ACCENT).attr("stroke-dasharray", "3 3").attr("opacity", 0.6);
+      g.append("text").attr("class", "label is-accent").attr("x", xm(e.at) + 4).attr("y", panelH + 14 + (i % 2) * 12).attr("font-size", 10).text(e.label);
+    });
+    g.update = () => {};
+  }
+
+  // ---------- View: the Yelich parallel ----------
+  {
+    const g = view("yelich");
+    const yel = data.parallels.yelich;
+    const panels = [
+      { name: "Christian Yelich", rows: yel.seasons.filter((r) => r.season >= 2018), events: { 2019: "Kneecap", 2021: "Back", 2024: "Back surgery" }, flag: [2021, 2022, 2023, 2024] },
+      { name: "Vladimir Guerrero Jr.", rows: seasons, events: { 2026: "Back" }, flag: [2026] },
+    ];
+    const gap = 40, pw = (innerW - gap) / 2;
+    const y = d3.scaleLinear().domain([0, 45]).range([innerH - 20, 0]);
+    panels.forEach((p, i) => {
+      const pg = g.append("g").attr("transform", `translate(${i * (pw + gap)},0)`);
+      const x = d3.scaleBand().domain(p.rows.map((r) => r.season)).range([0, pw]).paddingInner(0.25);
+      pg.append("g").attr("class", "grid").call(d3.axisLeft(y).ticks(4).tickSize(-pw).tickFormat(""));
+      pg.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(4).tickFormat((d) => `${d}%`));
+      pg.append("g").attr("class", "axis").attr("transform", `translate(0,${innerH - 20})`).call(d3.axisBottom(x).tickFormat((d) => `'${String(d).slice(2)}`));
+      pg.append("text").attr("class", "label").attr("x", 0).attr("y", -8).attr("font-weight", 600).text(p.name);
+      pg.selectAll("rect").data(p.rows).join("rect")
+        .attr("x", (r) => x(r.season)).attr("width", x.bandwidth())
+        .attr("y", (r) => y(r.hrPerFlyBall)).attr("height", (r) => innerH - 20 - y(r.hrPerFlyBall))
+        .attr("fill", (r) => (p.flag.includes(r.season) ? ACCENT : INK3));
+      pg.selectAll("text.v").data(p.rows).join("text").attr("class", (r) => `label v ${p.flag.includes(r.season) ? "is-accent" : ""}`)
+        .attr("x", (r) => x(r.season) + x.bandwidth() / 2).attr("y", (r) => y(r.hrPerFlyBall) - 4).attr("text-anchor", "middle").attr("font-size", 10).text((r) => Math.round(r.hrPerFlyBall));
+      Object.entries(p.events).forEach(([season, label]) => {
+        const r = p.rows.find((d) => d.season === +season);
+        if (!r) return;
+        pg.append("text").attr("class", "label is-accent").attr("x", x(+season) + x.bandwidth() / 2).attr("y", y(r.hrPerFlyBall) - 18).attr("text-anchor", "middle").attr("font-size", 10).text(label);
+      });
+    });
+    g.append("text").attr("class", "label").attr("x", innerW / 2).attr("y", innerH + 16).attr("text-anchor", "middle").text("Share of fly balls that left the park, by season. Accent: seasons played with a back problem.");
     g.update = () => {};
   }
 
@@ -317,14 +349,14 @@ function graphic(el, data) {
     { view: "hr", title: "Nine home runs, after seven seasons of at least 15", note: "Regular season home runs, 2019 to 2026. Source: MLB Stats API." },
     { view: "rolling", title: "The longest cold stretch of his career, by far", note: "Barrel rate over a rolling 30-game window across all 1,091 career games. Source: Baseball Savant." },
     { view: "z", title: "The approach is normal. The output is not.", note: "Each 2026 number scored against his own 2019 to 2025 seasons. Chase rate uses a fixed zone. Source: Baseball Savant." },
+    { view: "zone", title: "The strike zone moved more than the hitter did", note: "Every 2026 swing, catcher's view. Dashed box: the zone used in his data through 2025. Solid box: the 2026 ABS zone." },
     { view: "upper", title: "Zero home runs from the upper half of the zone, like his rookie year", note: "Balls in play on pitches over the plate, split at 2.5 feet. Source: Baseball Savant." },
     { view: "plates", title: "The heart of the plate went quiet", note: "Home runs per 100 balls in play from each ninth of a fixed zone. Left: 2019 to 2025 pooled. Right: 2026. Source: Baseball Savant." },
-    { view: "quality", title: "Quality air contact fell back to the rookie level", note: "Balls in play that were both hard hit and at a home run angle. Source: Baseball Savant." },
     { view: "angle", title: "The hard contact went into the ground", note: "Distribution of launch angles on balls hit 95 mph or harder, 2025 and 2026. Source: Baseball Savant." },
-    { view: "fly", title: "Fly balls carried 29 feet shorter than his norm", note: "Average distance of fly balls by season. Source: Baseball Savant." },
-    { view: "zone", title: "The strike zone moved more than the hitter did", note: "Every 2026 swing, catcher's view. Dashed box: the zone used in his data through 2025. Solid box: the 2026 ABS zone." },
-    { view: "months", title: "April looked like 2025. Nothing after it did.", note: "Barrel rate by month, 2026 against 2023, his previous down year. Source: Baseball Savant." },
+    { view: "timing", title: "The contact point moved two inches deeper in May, and the back trouble followed", note: "By month, 2025 and 2026. Contact point is where the bat meets the ball, measured from the batter. Source: Baseball Savant, MLB.com injury reports." },
+    { view: "yelich", title: "Yelich lost his power to a back for three years, and got it back after surgery", note: "Home runs per fly ball by season. Yelich from 2018, Guerrero from 2019. Source: Baseball Savant." },
   ];
+
 
   const onStep = (i) => {
     const s = states[Math.min(i, states.length - 1)];
@@ -342,7 +374,7 @@ export default {
   slug: "vladimir-guerrero-jr-2026",
   kicker: "Blue Jays",
   title: "Where Vladdy's power went",
-  dek: "Vladimir Guerrero Jr. hit nine home runs in 2026 after seven seasons of at least 15. Measured against his own career, the approach is unchanged and the chase narrative is mostly a measurement artifact. The anomaly is where the ball goes after he hits it.",
+  dek: "Vladimir Guerrero Jr. hit nine home runs in 2026 after seven seasons of at least 15. The power vanished from the top of the zone, the data says timing, the timeline says his back, and Christian Yelich's career says everything depends on how it heals.",
   date: "2026-10-09",
   readingTime: 8,
   draft: false,
@@ -359,9 +391,9 @@ export default {
     prose.className = "prose";
     prose.innerHTML = `
       <h2>What it means</h2>
-      <p>Against his own baseline, 2026 is an anomaly in output and not in approach. The inputs that a hitting coach or a front office would normally reach for, swing decisions, bat speed and raw exit velocity, are all inside his ordinary range. What moved is the angle his hard contact leaves the bat and the quality of the balls he puts in the air, and both moved in May and stayed moved.</p>
-      <p>That narrows the question for 2027 to two candidates. One is timing, which is coachable and tends to show up as exactly this pattern: the same bat speed arriving late on elevated pitches and driving them into the ground. The other is health, given the back discomfort that kept him out of the All-Star Game, which would be consistent with the fly balls losing carry while the bat speed held. The tell will come early. If the upper half of the zone produces home runs in April, it was timing.</p>
-      <p>The broader lesson is about baselines. Every number in the public discourse compared him to the league or to last year. Compared to himself over eight seasons, most of those numbers are unremarkable, one of them is an artifact of a rule change, and two are the most extreme values of his career. Finding the right baseline is most of the analysis.</p>
+      <p>Put the pieces in order. The power disappeared, almost entirely from the upper half of the zone and the heart of the plate. The approach did not change, and the bat is as fast as ever. What changed is that the bat arrived late: in his bad months the contact point sat two inches deeper and his hard contact went into the ground. The timing broke in May, and from late June onward there is a documented back problem that his manager says affects landing and rotating, the part of the swing that decides whether a high pitch gets lifted or topped.</p>
+      <p>The Yelich comparison is what makes this a question about 2027 rather than a verdict on the player. Yelich played through a back problem for three seasons and never got his fly balls to leave the park at his old rate. He had surgery, and the next year they did. Guerrero's version of the same measure, home runs per fly ball, fell from a career norm of 20 percent to 5.6, lower than anything Yelich posted. If the back heals over the winter, the first sign will be home runs from the top row of the plate in April. If it lingers, the launch angle on hard contact will stay near zero and the home runs will keep coming only from the bottom of the zone.</p>
+      <p>The broader lesson is about baselines and mechanisms. Every number in the public discourse compared him to the league or to last year, and one widely quoted number turned out to be an artifact of a rule change. Compared to himself over eight seasons, the approach numbers are unremarkable and the output numbers are the most extreme of his career. Finding the one input that moved, and then the physical reason it moved, is most of the analysis.</p>
       <h2>Watch the evidence</h2>
       <p>Every pitch in the charts has an MLB video clip. The loop below pairs two 2025 home runs with two 2026 ground outs on pitches at the same height, synced at the moment of contact.</p>
       ${videoFigure({ src: "vlad-same-pitch.mp4", poster: "vlad-same-pitch.jpg", alt: "Side by side clips of Guerrero hitting home runs in 2025 and ground outs in 2026 on pitches at the same height", caption: `Left: 2025. Right: 2026. Footage from MLB via Baseball Savant. <a href="${mediaUrl("vlad-same-pitch.gif")}">GIF version</a> for sharing.` })}
@@ -370,7 +402,7 @@ export default {
       <aside class="method">
         <h2>Method</h2>
         <p>Season lines come from the MLB Stats API. Pitch-level data for every season since 2019, and every ball in play at Rogers Centre from 2024 to 2026, come from Baseball Savant, pulled and summarized by <a href="${REPO}/blob/main/scripts/vladimir-guerrero-jr/statcast.py">statcast.py</a>. The video loop is built by <a href="${REPO}/blob/main/scripts/vladimir-guerrero-jr/build_gif.py">build_gif.py</a> from MLB's per-pitch clips.</p>
-        <p>The anomaly panel scores each 2026 value as (value minus mean) divided by the standard deviation of his 2019 to 2025 seasons, with the 60-game 2020 season included. Seven seasons is a small baseline, so the panel is a screen for where to look rather than a significance test. Zone boxes: the "through 2025" box uses his average Statcast zone from 2025 (3.68 and 1.65 feet); the 2026 box uses the ABS values in the data (3.21 and 1.62 feet), which match 53.5 and 27 percent of his listed 72 inches. Chase rate uses a box 0.83 feet either side of the plate centre, held fixed across all eight seasons. The upper and lower halves of the zone are split at 2.5 feet. Bat speed has been tracked since 2023. The upper-half zero rests on 168 balls in play, so a couple of home runs would not change the picture but a month of them would.</p>
+        <p>The anomaly panel scores each 2026 value as (value minus mean) divided by the standard deviation of his 2019 to 2025 seasons, with the 60-game 2020 season included. Seven seasons is a small baseline, so the panel is a screen for where to look rather than a significance test. Zone boxes: the "through 2025" box uses his average Statcast zone from 2025 (3.68 and 1.65 feet); the 2026 box uses the ABS values in the data (3.21 and 1.62 feet), which match 53.5 and 27 percent of his listed 72 inches. Chase rate uses a box 0.83 feet either side of the plate centre, held fixed across all eight seasons. The upper and lower halves of the zone are split at 2.5 feet. Bat speed, contact point and attack angle have been tracked since 2023; the contact point is Statcast's intercept distance between the ball and the batter at contact, averaged over balls in play each month. Yelich's seasons use the same contact measures from Baseball Savant; his injury dates come from contemporaneous reports. The upper-half zero rests on 168 balls in play, so a couple of home runs would not change the picture but a month of them would.</p>
       </aside>
     `;
 
@@ -379,10 +411,11 @@ export default {
       d3.json(dataUrl("vlad-summary.json")),
       d3.json(dataUrl("vlad-swings.json")),
       d3.json(dataUrl("vlad-clips.json")),
+      d3.json(dataUrl("vlad-parallels.json")),
     ])
-      .then(([career, summary, swings, clips]) => {
+      .then(([career, summary, swings, clips, parallels]) => {
         if (cancelled) return;
-        const data = { career, summary, swings };
+        const data = { career, summary, swings, parallels };
         scrollyRoot.innerHTML = "";
         scrolly = mountScrolly(scrollyRoot, { steps, graphic: (el) => graphic(el, data) });
         prose.querySelector("#clip-list").innerHTML = clips
