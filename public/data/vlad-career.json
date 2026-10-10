@@ -7954,5 +7954,137 @@
    3.21
   ],
   "halfPlate": 0.83
+ },
+ "plates": {
+  "career": [
+   {
+    "row": 0,
+    "col": 0,
+    "bip": 150,
+    "homeRuns": 5,
+    "barrels": 10
+   },
+   {
+    "row": 0,
+    "col": 1,
+    "bip": 183,
+    "homeRuns": 16,
+    "barrels": 35
+   },
+   {
+    "row": 0,
+    "col": 2,
+    "bip": 79,
+    "homeRuns": 5,
+    "barrels": 13
+   },
+   {
+    "row": 1,
+    "col": 0,
+    "bip": 371,
+    "homeRuns": 22,
+    "barrels": 45
+   },
+   {
+    "row": 1,
+    "col": 1,
+    "bip": 415,
+    "homeRuns": 44,
+    "barrels": 87
+   },
+   {
+    "row": 1,
+    "col": 2,
+    "bip": 295,
+    "homeRuns": 23,
+    "barrels": 44
+   },
+   {
+    "row": 2,
+    "col": 0,
+    "bip": 212,
+    "homeRuns": 14,
+    "barrels": 32
+   },
+   {
+    "row": 2,
+    "col": 1,
+    "bip": 391,
+    "homeRuns": 24,
+    "barrels": 53
+   },
+   {
+    "row": 2,
+    "col": 2,
+    "bip": 329,
+    "homeRuns": 11,
+    "barrels": 19
+   }
+  ],
+  "2026": [
+   {
+    "row": 0,
+    "col": 0,
+    "bip": 19,
+    "homeRuns": 0,
+    "barrels": 0
+   },
+   {
+    "row": 0,
+    "col": 1,
+    "bip": 29,
+    "homeRuns": 0,
+    "barrels": 0
+   },
+   {
+    "row": 0,
+    "col": 2,
+    "bip": 13,
+    "homeRuns": 0,
+    "barrels": 2
+   },
+   {
+    "row": 1,
+    "col": 0,
+    "bip": 56,
+    "homeRuns": 1,
+    "barrels": 2
+   },
+   {
+    "row": 1,
+    "col": 1,
+    "bip": 61,
+    "homeRuns": 0,
+    "barrels": 7
+   },
+   {
+    "row": 1,
+    "col": 2,
+    "bip": 35,
+    "homeRuns": 1,
+    "barrels": 5
+   },
+   {
+    "row": 2,
+    "col": 0,
+    "bip": 26,
+    "homeRuns": 2,
+    "barrels": 4
+   },
+   {
+    "row": 2,
+    "col": 1,
+    "bip": 61,
+    "homeRuns": 2,
+    "barrels": 4
+   },
+   {
+    "row": 2,
+    "col": 2,
+    "bip": 55,
+    "homeRuns": 0,
+    "barrels": 5
+   }
+  ]
  }
 }

@@ -194,6 +194,26 @@ def career_rolling(frames: dict, window: int = 30) -> list[dict]:
     return out
 
 
+def zone_grid(frames: list[pd.DataFrame]) -> list[dict]:
+    """Home runs and balls in play in each ninth of a fixed strike zone (OLD_BOX), catcher's view.
+    row 0 is the top of the zone, col 0 is the catcher's left (inside to a right-handed hitter)."""
+    d = pd.concat(frames)
+    bip = d[d["in_play"] & d["launch_speed"].notna() & over_plate(d) & d["plate_z"].between(*OLD_BOX)]
+    col = ((bip["plate_x"] + HALF_PLATE) / (2 * HALF_PLATE) * 3).clip(0, 2.999).astype(int)
+    row = ((OLD_BOX[1] - bip["plate_z"]) / (OLD_BOX[1] - OLD_BOX[0]) * 3).clip(0, 2.999).astype(int)
+    cells = []
+    for r in range(3):
+        for c in range(3):
+            m = (row == r) & (col == c)
+            cells.append({
+                "row": r, "col": c,
+                "bip": int(m.sum()),
+                "homeRuns": int((bip.loc[m, "events"] == "home_run").sum()),
+                "barrels": int((bip.loc[m, "launch_speed_angle"] == 6).sum()),
+            })
+    return cells
+
+
 def vlad_swings(d: pd.DataFrame) -> list[dict]:
     s = d[d["swing"] & d["plate_x"].notna()]
     return [
@@ -241,7 +261,8 @@ def main() -> None:
     summary["boxes"] = {"old": OLD_BOX, "abs": ABS_BOX, "halfPlate": HALF_PLATE}
     (OUT / "vlad-summary.json").write_text(json.dumps(clean(summary), indent=1))
     seasons = [career_season(vlad[y], y) for y in SEASONS]
-    (OUT / "vlad-career.json").write_text(json.dumps(clean({"seasons": seasons, "rolling": career_rolling(vlad), "boxes": summary["boxes"]}), indent=1))
+    plates = {"career": zone_grid([vlad[y] for y in SEASONS if y < 2026]), "2026": zone_grid([vlad[2026]])}
+    (OUT / "vlad-career.json").write_text(json.dumps(clean({"seasons": seasons, "rolling": career_rolling(vlad), "boxes": summary["boxes"], "plates": plates}), indent=1))
     (OUT / "vlad-swings.json").write_text(json.dumps({str(s): vlad_swings(vlad[s]) for s in (2025, 2026)}))
     (OUT / "rogers-centre.json").write_text(json.dumps([rogers(s) for s in (2024, 2025, 2026)], indent=1))
     for s in SEASONS:

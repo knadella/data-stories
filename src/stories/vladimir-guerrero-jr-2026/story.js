@@ -33,6 +33,10 @@ const steps = [
     html: `<p>The power left from one place. As a rookie he hit almost everything out of the lower half of the zone: one home run from the upper half in 2019, two in 2020. Then he lost 42 pounds over the winter of 2020 and the top of the zone opened up. From 2021 to 2025 he hit between 12 and 30 home runs a year from pitches above the midpoint of the zone.</p><p>In 2026 he put 168 balls in play from that zone and hit zero home runs. The lower half held up almost unchanged. His profile reverted to his 20-year-old self.</p>`,
   },
   {
+    id: "plates",
+    html: `<p>Here is the same thing as a catcher sees it. Each plate splits the strike zone into nine cells, and the number is home runs per 100 balls in play from that cell. He bats right-handed, so the inside edge is on the left.</p><p>From 2019 to 2025 the top row and the heart of the plate were his power zones: 8.7 per 100 from the top middle, 10.6 from the middle of the plate. In 2026 the top row and the middle of the plate produced zero home runs on 183 balls in play. The six he hit from inside the zone all came from the lower two rows.</p>`,
+  },
+  {
     id: "quality",
     html: `<p>The cleanest single measure of a power hitter is how often a ball in play is both hard hit and in the air at a home run angle. For Guerrero that share was 14 percent as a rookie, 25 percent in his 48-homer year, and between 20 and 25 percent every year since.</p><p>In 2026 it was 15 percent, back to the rookie level. That is the anomaly in one number: the same number of balls in play, a third fewer of them struck well in the air.</p>`,
   },
@@ -197,6 +201,37 @@ function graphic(el, data) {
     g.update = () => {};
   }
 
+  // ---------- View 4b: two plates, career average and 2026 ----------
+  {
+    const g = view("plates");
+    const plates = data.career.plates;
+    const rate = (c) => (c.bip ? (c.homeRuns / c.bip) * 100 : 0);
+    const maxRate = d3.max([...plates.career, ...plates["2026"]], rate);
+    const color = d3.scaleLinear().domain([0, maxRate]).range(["#ffffff", "#b5452b"]);
+    const cell = 74, gap = 3, plateW = cell * 3 + gap * 2;
+    const left = { x: innerW / 2 - plateW - 40, label: "2019 to 2025", cells: plates.career };
+    const right = { x: innerW / 2 + 40, label: "2026", cells: plates["2026"], accent: true };
+    const top = 36;
+    for (const p of [left, right]) {
+      const pg = g.append("g").attr("transform", `translate(${p.x},${top})`);
+      pg.append("text").attr("class", `label ${p.accent ? "is-accent" : ""}`).attr("x", plateW / 2).attr("y", -12).attr("text-anchor", "middle").attr("font-size", 14).attr("font-weight", 600).text(p.label);
+      for (const c of p.cells) {
+        const x = c.col * (cell + gap), y = c.row * (cell + gap);
+        pg.append("rect").attr("x", x).attr("y", y).attr("width", cell).attr("height", cell).attr("rx", 3).attr("fill", color(rate(c))).attr("stroke", "var(--rule)");
+        const dark = rate(c) > maxRate * 0.55;
+        pg.append("text").attr("x", x + cell / 2).attr("y", y + cell / 2 + 1).attr("dy", "0.35em").attr("text-anchor", "middle").attr("font-size", 19).attr("font-weight", 600).attr("fill", dark ? "#fff" : "var(--ink)").text(rate(c).toFixed(1));
+        pg.append("text").attr("x", x + cell / 2).attr("y", y + cell - 7).attr("text-anchor", "middle").attr("font-size", 10).attr("fill", dark ? "rgba(255,255,255,0.8)" : "var(--ink-3)").text(`${c.homeRuns} of ${c.bip}`);
+      }
+      // home plate below the zone
+      const px = plateW / 2, py = plateW + 22, w = 54;
+      pg.append("path").attr("d", `M${px - w / 2} ${py} h${w} v10 L${px} ${py + 24} L${px - w / 2} ${py + 10} Z`).attr("fill", "#fff").attr("stroke", INK3);
+    }
+    g.append("text").attr("class", "label").attr("x", left.x).attr("y", top + plateW + 60).text("Inside edge");
+    g.append("text").attr("class", "label").attr("x", left.x + plateW).attr("y", top + plateW + 60).attr("text-anchor", "end").text("Outside edge");
+    g.append("text").attr("class", "label").attr("x", innerW / 2).attr("y", innerH + 20).attr("text-anchor", "middle").text("Home runs per 100 balls in play from each ninth of the zone, catcher's view");
+    g.update = () => {};
+  }
+
   // ---------- View 5: quality air contact share ----------
   {
     const g = view("quality");
@@ -283,6 +318,7 @@ function graphic(el, data) {
     { view: "rolling", title: "The longest cold stretch of his career, by far", note: "Barrel rate over a rolling 30-game window across all 1,091 career games. Source: Baseball Savant." },
     { view: "z", title: "The approach is normal. The output is not.", note: "Each 2026 number scored against his own 2019 to 2025 seasons. Chase rate uses a fixed zone. Source: Baseball Savant." },
     { view: "upper", title: "Zero home runs from the upper half of the zone, like his rookie year", note: "Balls in play on pitches over the plate, split at 2.5 feet. Source: Baseball Savant." },
+    { view: "plates", title: "The heart of the plate went quiet", note: "Home runs per 100 balls in play from each ninth of a fixed zone. Left: 2019 to 2025 pooled. Right: 2026. Source: Baseball Savant." },
     { view: "quality", title: "Quality air contact fell back to the rookie level", note: "Balls in play that were both hard hit and at a home run angle. Source: Baseball Savant." },
     { view: "angle", title: "The hard contact went into the ground", note: "Distribution of launch angles on balls hit 95 mph or harder, 2025 and 2026. Source: Baseball Savant." },
     { view: "fly", title: "Fly balls carried 29 feet shorter than his norm", note: "Average distance of fly balls by season. Source: Baseball Savant." },
