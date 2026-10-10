@@ -317,7 +317,7 @@ function graphic(el, data) {
     const g = view("yelich");
     const yel = data.parallels.yelich;
     const panels = [
-      { name: "Christian Yelich", rows: yel.seasons.filter((r) => r.season >= 2018), events: { 2019: "Kneecap", 2021: "Back", 2024: "Back surgery" }, flag: [2021, 2022, 2023, 2024] },
+      { name: "Christian Yelich", rows: yel.seasons.filter((r) => r.season >= 2018), events: { 2019: "Kneecap", 2021: "Back", 2024: "Surgery" }, flag: [2021, 2022, 2023, 2024] },
       { name: "Vladimir Guerrero Jr.", rows: seasons, events: { 2026: "Back" }, flag: [2026] },
     ];
     const gap = 40, pw = (innerW - gap) / 2;
@@ -338,7 +338,7 @@ function graphic(el, data) {
       Object.entries(p.events).forEach(([season, label]) => {
         const r = p.rows.find((d) => d.season === +season);
         if (!r) return;
-        pg.append("text").attr("class", "label is-accent").attr("x", x(+season) + x.bandwidth() / 2).attr("y", y(r.hrPerFlyBall) - 18).attr("text-anchor", "middle").attr("font-size", 10).text(label);
+        pg.append("text").attr("class", "label is-accent").attr("x", x(+season) + x.bandwidth() / 2).attr("y", y(r.hrPerFlyBall) - 20).attr("text-anchor", "middle").attr("font-size", 10).attr("font-weight", 600).text(label);
       });
     });
     g.append("text").attr("class", "label").attr("x", innerW / 2).attr("y", innerH + 16).attr("text-anchor", "middle").text("Share of fly balls that left the park, by season. Accent: seasons played with a back problem.");
